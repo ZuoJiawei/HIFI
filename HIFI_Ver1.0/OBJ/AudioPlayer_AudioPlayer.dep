@@ -1,0 +1,1886 @@
+Dependencies for Project 'AudioPlayer', Target 'AudioPlayer': (DO NOT MODIFY !)
+F (.\main.c)(0x5AC469CB)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\LCD -I ..\HARDWARE\KEY -I ..\HARDWARE\SRAM -I ..\HARDWARE\SDIO -I ..\MALLOC -I ..\USMART -I ..\HARDWARE\SPI -I ..\HARDWARE\W25QXX -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\TEXT -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\I2S -I ..\HARDWARE\WM8978 -I ..\APP -I ..\AUDIOCODEC\wav -I ..\AUDIOCODEC\DSD -I ..\HARDWARE\AK4595SEQ -I ..\AUDIOCODEC\mp3 -I ..\AUDIOCODEC\mp3\helix -I ..\AUDIOCODEC\ape\apedec -I ..\AUDIOCODEC\ape -I ..\AUDIOCODEC\flac\flacdec -I ..\AUDIOCODEC\flac -I ..\HARDWARE\NOKIA5110\5110 -I ..\HARDWARE\SRAM-IF:\WORK_IN_WHU\program\done\HIFI\DEMO\ARM\HIFI_Ver4\HIFI_Ver3WAV192_MP3_ape_flac_nokia\USER\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
+I (..\SYSTEM\sys\sys.h)(0x574564B4)
+I (..\USER\stm32f4xx.h)(0x571779F1)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
+I (..\SYSTEM\delay\delay.h)(0x53B7797C)
+I (..\SYSTEM\usart\usart.h)(0x571A0D0D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3E26)
+I (..\HARDWARE\KEY\key.h)(0x572196CB)
+I (..\MALLOC\malloc.h)(0x54212E6B)
+I (..\HARDWARE\SDIO\sdio_sdcard.h)(0x5448807D)
+I (..\FATFS\src\ff.h)(0x53D1D050)
+I (..\FATFS\src\integer.h)(0x5378E62C)
+I (..\FATFS\src\ffconf.h)(0x53C89DEF)
+I (..\FATFS\exfuns\exfuns.h)(0x572849F0)
+I (..\APP\audioplay.h)(0x5743CB92)
+I (..\AUDIOCODEC\wav\wavplay.h)(0x5742A7FD)
+I (..\HARDWARE\I2S\i2s.h)(0x57426D0A)
+I (..\HARDWARE\AK4595SEQ\AK4595.h)(0x572C0D1D)
+I (..\HARDWARE\NOKIA5110\5110\nokia5110.h)(0x5731E9A2)
+F (.\stm32f4xx_it.c)(0x5426CDF4)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\LCD -I ..\HARDWARE\KEY -I ..\HARDWARE\SRAM -I ..\HARDWARE\SDIO -I ..\MALLOC -I ..\USMART -I ..\HARDWARE\SPI -I ..\HARDWARE\W25QXX -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\TEXT -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\I2S -I ..\HARDWARE\WM8978 -I ..\APP -I ..\AUDIOCODEC\wav -I ..\AUDIOCODEC\DSD -I ..\HARDWARE\AK4595SEQ -I ..\AUDIOCODEC\mp3 -I ..\AUDIOCODEC\mp3\helix -I ..\AUDIOCODEC\ape\apedec -I ..\AUDIOCODEC\ape -I ..\AUDIOCODEC\flac\flacdec -I ..\AUDIOCODEC\flac -I ..\HARDWARE\NOKIA5110\5110 -I ..\HARDWARE\SRAM-IF:\WORK_IN_WHU\program\done\HIFI\DEMO\ARM\HIFI_Ver4\HIFI_Ver3WAV192_MP3_ape_flac_nokia\USER\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f4xx_it.o --omf_browse ..\obj\stm32f4xx_it.crf --depend ..\obj\stm32f4xx_it.d)
+I (stm32f4xx_it.h)(0x5426CDC1)
+I (stm32f4xx.h)(0x571779F1)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (system_stm32f4xx.h)(0x53DBA499)
+I (stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\USER\stm32f4xx.h)(0x571779F1)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
+F (.\system_stm32f4xx.c)(0x571779F1)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\LCD -I ..\HARDWARE\KEY -I ..\HARDWARE\SRAM -I ..\HARDWARE\SDIO -I ..\MALLOC -I ..\USMART -I ..\HARDWARE\SPI -I ..\HARDWARE\W25QXX -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\TEXT -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\I2S -I ..\HARDWARE\WM8978 -I ..\APP -I ..\AUDIOCODEC\wav -I ..\AUDIOCODEC\DSD -I ..\HARDWARE\AK4595SEQ -I ..\AUDIOCODEC\mp3 -I ..\AUDIOCODEC\mp3\helix -I ..\AUDIOCODEC\ape\apedec -I ..\AUDIOCODEC\ape -I ..\AUDIOCODEC\flac\flacdec -I ..\AUDIOCODEC\flac -I ..\HARDWARE\NOKIA5110\5110 -I ..\HARDWARE\SRAM-IF:\WORK_IN_WHU\program\done\HIFI\DEMO\ARM\HIFI_Ver4\HIFI_Ver3WAV192_MP3_ape_flac_nokia\USER\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\system_stm32f4xx.o --omf_browse ..\obj\system_stm32f4xx.crf --depend ..\obj\system_stm32f4xx.d)
+I (stm32f4xx.h)(0x571779F1)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (system_stm32f4xx.h)(0x53DBA499)
+I (stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\USER\stm32f4xx.h)(0x571779F1)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
+F (..\HARDWARE\KEY\key.c)(0x572196CB)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\LCD -I ..\HARDWARE\KEY -I ..\HARDWARE\SRAM -I ..\HARDWARE\SDIO -I ..\MALLOC -I ..\USMART -I ..\HARDWARE\SPI -I ..\HARDWARE\W25QXX -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\TEXT -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\I2S -I ..\HARDWARE\WM8978 -I ..\APP -I ..\AUDIOCODEC\wav -I ..\AUDIOCODEC\DSD -I ..\HARDWARE\AK4595SEQ -I ..\AUDIOCODEC\mp3 -I ..\AUDIOCODEC\mp3\helix -I ..\AUDIOCODEC\ape\apedec -I ..\AUDIOCODEC\ape -I ..\AUDIOCODEC\flac\flacdec -I ..\AUDIOCODEC\flac -I ..\HARDWARE\NOKIA5110\5110 -I ..\HARDWARE\SRAM-IF:\WORK_IN_WHU\program\done\HIFI\DEMO\ARM\HIFI_Ver4\HIFI_Ver3WAV192_MP3_ape_flac_nokia\USER\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\key.o --omf_browse ..\obj\key.crf --depend ..\obj\key.d)
+I (..\HARDWARE\KEY\key.h)(0x572196CB)
+I (..\SYSTEM\sys\sys.h)(0x574564B4)
+I (..\USER\stm32f4xx.h)(0x571779F1)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
+I (..\SYSTEM\delay\delay.h)(0x53B7797C)
+F (..\HARDWARE\SPI\spi.c)(0x53BD4A07)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\LCD -I ..\HARDWARE\KEY -I ..\HARDWARE\SRAM -I ..\HARDWARE\SDIO -I ..\MALLOC -I ..\USMART -I ..\HARDWARE\SPI -I ..\HARDWARE\W25QXX -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\TEXT -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\I2S -I ..\HARDWARE\WM8978 -I ..\APP -I ..\AUDIOCODEC\wav -I ..\AUDIOCODEC\DSD -I ..\HARDWARE\AK4595SEQ -I ..\AUDIOCODEC\mp3 -I ..\AUDIOCODEC\mp3\helix -I ..\AUDIOCODEC\ape\apedec -I ..\AUDIOCODEC\ape -I ..\AUDIOCODEC\flac\flacdec -I ..\AUDIOCODEC\flac -I ..\HARDWARE\NOKIA5110\5110 -I ..\HARDWARE\SRAM-IF:\WORK_IN_WHU\program\done\HIFI\DEMO\ARM\HIFI_Ver4\HIFI_Ver3WAV192_MP3_ape_flac_nokia\USER\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\spi.o --omf_browse ..\obj\spi.crf --depend ..\obj\spi.d)
+I (..\HARDWARE\SPI\spi.h)(0x543CCB83)
+I (..\SYSTEM\sys\sys.h)(0x574564B4)
+I (..\USER\stm32f4xx.h)(0x571779F1)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
+F (..\HARDWARE\SDIO\sdio_sdcard.c)(0x5732D64C)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\LCD -I ..\HARDWARE\KEY -I ..\HARDWARE\SRAM -I ..\HARDWARE\SDIO -I ..\MALLOC -I ..\USMART -I ..\HARDWARE\SPI -I ..\HARDWARE\W25QXX -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\TEXT -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\I2S -I ..\HARDWARE\WM8978 -I ..\APP -I ..\AUDIOCODEC\wav -I ..\AUDIOCODEC\DSD -I ..\HARDWARE\AK4595SEQ -I ..\AUDIOCODEC\mp3 -I ..\AUDIOCODEC\mp3\helix -I ..\AUDIOCODEC\ape\apedec -I ..\AUDIOCODEC\ape -I ..\AUDIOCODEC\flac\flacdec -I ..\AUDIOCODEC\flac -I ..\HARDWARE\NOKIA5110\5110 -I ..\HARDWARE\SRAM-IF:\WORK_IN_WHU\program\done\HIFI\DEMO\ARM\HIFI_Ver4\HIFI_Ver3WAV192_MP3_ape_flac_nokia\USER\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\sdio_sdcard.o --omf_browse ..\obj\sdio_sdcard.crf --depend ..\obj\sdio_sdcard.d)
+I (..\HARDWARE\SDIO\sdio_sdcard.h)(0x5448807D)
+I (..\USER\stm32f4xx.h)(0x571779F1)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
+I (..\SYSTEM\sys\sys.h)(0x574564B4)
+I (..\SYSTEM\usart\usart.h)(0x571A0D0D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3E26)
+F (..\HARDWARE\IIC\myiic.c)(0x57426D0A)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\LCD -I ..\HARDWARE\KEY -I ..\HARDWARE\SRAM -I ..\HARDWARE\SDIO -I ..\MALLOC -I ..\USMART -I ..\HARDWARE\SPI -I ..\HARDWARE\W25QXX -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\TEXT -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\I2S -I ..\HARDWARE\WM8978 -I ..\APP -I ..\AUDIOCODEC\wav -I ..\AUDIOCODEC\DSD -I ..\HARDWARE\AK4595SEQ -I ..\AUDIOCODEC\mp3 -I ..\AUDIOCODEC\mp3\helix -I ..\AUDIOCODEC\ape\apedec -I ..\AUDIOCODEC\ape -I ..\AUDIOCODEC\flac\flacdec -I ..\AUDIOCODEC\flac -I ..\HARDWARE\NOKIA5110\5110 -I ..\HARDWARE\SRAM-IF:\WORK_IN_WHU\program\done\HIFI\DEMO\ARM\HIFI_Ver4\HIFI_Ver3WAV192_MP3_ape_flac_nokia\USER\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\myiic.o --omf_browse ..\obj\myiic.crf --depend ..\obj\myiic.d)
+I (..\HARDWARE\IIC\myiic.h)(0x57416900)
+I (..\SYSTEM\sys\sys.h)(0x574564B4)
+I (..\USER\stm32f4xx.h)(0x571779F1)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
+I (..\SYSTEM\delay\delay.h)(0x53B7797C)
+F (..\HARDWARE\I2S\i2s.c)(0x574565B5)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\LCD -I ..\HARDWARE\KEY -I ..\HARDWARE\SRAM -I ..\HARDWARE\SDIO -I ..\MALLOC -I ..\USMART -I ..\HARDWARE\SPI -I ..\HARDWARE\W25QXX -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\TEXT -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\I2S -I ..\HARDWARE\WM8978 -I ..\APP -I ..\AUDIOCODEC\wav -I ..\AUDIOCODEC\DSD -I ..\HARDWARE\AK4595SEQ -I ..\AUDIOCODEC\mp3 -I ..\AUDIOCODEC\mp3\helix -I ..\AUDIOCODEC\ape\apedec -I ..\AUDIOCODEC\ape -I ..\AUDIOCODEC\flac\flacdec -I ..\AUDIOCODEC\flac -I ..\HARDWARE\NOKIA5110\5110 -I ..\HARDWARE\SRAM-IF:\WORK_IN_WHU\program\done\HIFI\DEMO\ARM\HIFI_Ver4\HIFI_Ver3WAV192_MP3_ape_flac_nokia\USER\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\i2s.o --omf_browse ..\obj\i2s.crf --depend ..\obj\i2s.d)
+I (..\HARDWARE\I2S\i2s.h)(0x57426D0A)
+I (..\SYSTEM\sys\sys.h)(0x574564B4)
+I (..\USER\stm32f4xx.h)(0x571779F1)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
+I (..\SYSTEM\usart\usart.h)(0x571A0D0D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3E26)
+F (..\HARDWARE\AK4595SEQ\AK4595.c)(0x57417363)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\LCD -I ..\HARDWARE\KEY -I ..\HARDWARE\SRAM -I ..\HARDWARE\SDIO -I ..\MALLOC -I ..\USMART -I ..\HARDWARE\SPI -I ..\HARDWARE\W25QXX -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\TEXT -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\I2S -I ..\HARDWARE\WM8978 -I ..\APP -I ..\AUDIOCODEC\wav -I ..\AUDIOCODEC\DSD -I ..\HARDWARE\AK4595SEQ -I ..\AUDIOCODEC\mp3 -I ..\AUDIOCODEC\mp3\helix -I ..\AUDIOCODEC\ape\apedec -I ..\AUDIOCODEC\ape -I ..\AUDIOCODEC\flac\flacdec -I ..\AUDIOCODEC\flac -I ..\HARDWARE\NOKIA5110\5110 -I ..\HARDWARE\SRAM-IF:\WORK_IN_WHU\program\done\HIFI\DEMO\ARM\HIFI_Ver4\HIFI_Ver3WAV192_MP3_ape_flac_nokia\USER\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\ak4595.o --omf_browse ..\obj\ak4595.crf --depend ..\obj\ak4595.d)
+I (..\HARDWARE\AK4595SEQ\AK4595.h)(0x572C0D1D)
+I (..\SYSTEM\sys\sys.h)(0x574564B4)
+I (..\USER\stm32f4xx.h)(0x571779F1)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
+I (..\HARDWARE\IIC\myiic.h)(0x57416900)
+I (..\SYSTEM\delay\delay.h)(0x53B7797C)
+I (..\HARDWARE\I2S\i2s.h)(0x57426D0A)
+F (..\HARDWARE\NOKIA5110\5110\nokia5110.c)(0x5731E9A2)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\LCD -I ..\HARDWARE\KEY -I ..\HARDWARE\SRAM -I ..\HARDWARE\SDIO -I ..\MALLOC -I ..\USMART -I ..\HARDWARE\SPI -I ..\HARDWARE\W25QXX -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\TEXT -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\I2S -I ..\HARDWARE\WM8978 -I ..\APP -I ..\AUDIOCODEC\wav -I ..\AUDIOCODEC\DSD -I ..\HARDWARE\AK4595SEQ -I ..\AUDIOCODEC\mp3 -I ..\AUDIOCODEC\mp3\helix -I ..\AUDIOCODEC\ape\apedec -I ..\AUDIOCODEC\ape -I ..\AUDIOCODEC\flac\flacdec -I ..\AUDIOCODEC\flac -I ..\HARDWARE\NOKIA5110\5110 -I ..\HARDWARE\SRAM-IF:\WORK_IN_WHU\program\done\HIFI\DEMO\ARM\HIFI_Ver4\HIFI_Ver3WAV192_MP3_ape_flac_nokia\USER\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\nokia5110.o --omf_browse ..\obj\nokia5110.crf --depend ..\obj\nokia5110.d)
+I (..\HARDWARE\NOKIA5110\5110\nokia5110.h)(0x5731E9A2)
+I (..\SYSTEM\sys\sys.h)(0x574564B4)
+I (..\USER\stm32f4xx.h)(0x571779F1)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
+I (..\SYSTEM\delay\delay.h)(0x53B7797C)
+I (..\HARDWARE\NOKIA5110\5110\english_6x8_pixel.h)(0x5731E9D7)
+F (..\HARDWARE\SRAM\sram.c)(0x57456894)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\LCD -I ..\HARDWARE\KEY -I ..\HARDWARE\SRAM -I ..\HARDWARE\SDIO -I ..\MALLOC -I ..\USMART -I ..\HARDWARE\SPI -I ..\HARDWARE\W25QXX -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\TEXT -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\I2S -I ..\HARDWARE\WM8978 -I ..\APP -I ..\AUDIOCODEC\wav -I ..\AUDIOCODEC\DSD -I ..\HARDWARE\AK4595SEQ -I ..\AUDIOCODEC\mp3 -I ..\AUDIOCODEC\mp3\helix -I ..\AUDIOCODEC\ape\apedec -I ..\AUDIOCODEC\ape -I ..\AUDIOCODEC\flac\flacdec -I ..\AUDIOCODEC\flac -I ..\HARDWARE\NOKIA5110\5110 -I ..\HARDWARE\SRAM-IF:\WORK_IN_WHU\program\done\HIFI\DEMO\ARM\HIFI_Ver4\HIFI_Ver3WAV192_MP3_ape_flac_nokia\USER\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\sram.o --omf_browse ..\obj\sram.crf --depend ..\obj\sram.d)
+I (..\HARDWARE\SRAM\sram.h)(0x53BEA52A)
+I (..\SYSTEM\sys\sys.h)(0x574564B4)
+I (..\USER\stm32f4xx.h)(0x571779F1)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
+I (..\SYSTEM\usart\usart.h)(0x571A0D0D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3E26)
+I (..\AUDIOCODEC\wav\wavplay.h)(0x5742A7FD)
+I (..\APP\audioplay.h)(0x5743CB92)
+I (..\FATFS\src\ff.h)(0x53D1D050)
+I (..\FATFS\src\integer.h)(0x5378E62C)
+I (..\FATFS\src\ffconf.h)(0x53C89DEF)
+I (..\SYSTEM\delay\delay.h)(0x53B7797C)
+I (..\MALLOC\malloc.h)(0x54212E6B)
+I (..\HARDWARE\I2S\i2s.h)(0x57426D0A)
+I (..\HARDWARE\WM8978\wm8978.h)(0x5724AD1A)
+I (..\HARDWARE\KEY\key.h)(0x572196CB)
+I (..\HARDWARE\LED\led.h)(0x53B53723)
+I (..\HARDWARE\AK4595SEQ\AK4595.h)(0x572C0D1D)
+I (..\HARDWARE\IIC\myiic.h)(0x57416900)
+I (..\HARDWARE\NOKIA5110\5110\nokia5110.h)(0x5731E9A2)
+I (..\APP\test_cpld.h)(0x5742ABFB)
+F (..\SYSTEM\sys\sys.c)(0x53B52F52)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\LCD -I ..\HARDWARE\KEY -I ..\HARDWARE\SRAM -I ..\HARDWARE\SDIO -I ..\MALLOC -I ..\USMART -I ..\HARDWARE\SPI -I ..\HARDWARE\W25QXX -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\TEXT -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\I2S -I ..\HARDWARE\WM8978 -I ..\APP -I ..\AUDIOCODEC\wav -I ..\AUDIOCODEC\DSD -I ..\HARDWARE\AK4595SEQ -I ..\AUDIOCODEC\mp3 -I ..\AUDIOCODEC\mp3\helix -I ..\AUDIOCODEC\ape\apedec -I ..\AUDIOCODEC\ape -I ..\AUDIOCODEC\flac\flacdec -I ..\AUDIOCODEC\flac -I ..\HARDWARE\NOKIA5110\5110 -I ..\HARDWARE\SRAM-IF:\WORK_IN_WHU\program\done\HIFI\DEMO\ARM\HIFI_Ver4\HIFI_Ver3WAV192_MP3_ape_flac_nokia\USER\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\sys.o --omf_browse ..\obj\sys.crf --depend ..\obj\sys.d)
+I (..\SYSTEM\sys\sys.h)(0x574564B4)
+I (..\USER\stm32f4xx.h)(0x571779F1)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
+F (..\SYSTEM\usart\usart.c)(0x571A218D)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\LCD -I ..\HARDWARE\KEY -I ..\HARDWARE\SRAM -I ..\HARDWARE\SDIO -I ..\MALLOC -I ..\USMART -I ..\HARDWARE\SPI -I ..\HARDWARE\W25QXX -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\TEXT -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\I2S -I ..\HARDWARE\WM8978 -I ..\APP -I ..\AUDIOCODEC\wav -I ..\AUDIOCODEC\DSD -I ..\HARDWARE\AK4595SEQ -I ..\AUDIOCODEC\mp3 -I ..\AUDIOCODEC\mp3\helix -I ..\AUDIOCODEC\ape\apedec -I ..\AUDIOCODEC\ape -I ..\AUDIOCODEC\flac\flacdec -I ..\AUDIOCODEC\flac -I ..\HARDWARE\NOKIA5110\5110 -I ..\HARDWARE\SRAM-IF:\WORK_IN_WHU\program\done\HIFI\DEMO\ARM\HIFI_Ver4\HIFI_Ver3WAV192_MP3_ape_flac_nokia\USER\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\usart.o --omf_browse ..\obj\usart.crf --depend ..\obj\usart.d)
+I (..\SYSTEM\sys\sys.h)(0x574564B4)
+I (..\USER\stm32f4xx.h)(0x571779F1)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
+I (..\SYSTEM\usart\usart.h)(0x571A0D0D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3E26)
+F (..\SYSTEM\delay\delay.c)(0x55CC1354)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\LCD -I ..\HARDWARE\KEY -I ..\HARDWARE\SRAM -I ..\HARDWARE\SDIO -I ..\MALLOC -I ..\USMART -I ..\HARDWARE\SPI -I ..\HARDWARE\W25QXX -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\TEXT -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\I2S -I ..\HARDWARE\WM8978 -I ..\APP -I ..\AUDIOCODEC\wav -I ..\AUDIOCODEC\DSD -I ..\HARDWARE\AK4595SEQ -I ..\AUDIOCODEC\mp3 -I ..\AUDIOCODEC\mp3\helix -I ..\AUDIOCODEC\ape\apedec -I ..\AUDIOCODEC\ape -I ..\AUDIOCODEC\flac\flacdec -I ..\AUDIOCODEC\flac -I ..\HARDWARE\NOKIA5110\5110 -I ..\HARDWARE\SRAM-IF:\WORK_IN_WHU\program\done\HIFI\DEMO\ARM\HIFI_Ver4\HIFI_Ver3WAV192_MP3_ape_flac_nokia\USER\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\delay.o --omf_browse ..\obj\delay.crf --depend ..\obj\delay.d)
+I (..\SYSTEM\delay\delay.h)(0x53B7797C)
+I (..\SYSTEM\sys\sys.h)(0x574564B4)
+I (..\USER\stm32f4xx.h)(0x571779F1)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
+F (..\CORE\startup_stm32f40_41xxx.s)(0x53DBBC53)(--cpu Cortex-M4.fp -g --apcs=interwork -IF:\WORK_IN_WHU\program\done\HIFI\DEMO\ARM\HIFI_Ver4\HIFI_Ver3WAV192_MP3_ape_flac_nokia\USER\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 521" --pd "STM32F40_41xxx SETA 1"--list ..\obj\startup_stm32f40_41xxx.lst --xref -o ..\obj\startup_stm32f40_41xxx.o --depend ..\obj\startup_stm32f40_41xxx.d)
+F (..\FWLIB\src\misc.c)(0x53DBB014)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\LCD -I ..\HARDWARE\KEY -I ..\HARDWARE\SRAM -I ..\HARDWARE\SDIO -I ..\MALLOC -I ..\USMART -I ..\HARDWARE\SPI -I ..\HARDWARE\W25QXX -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\TEXT -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\I2S -I ..\HARDWARE\WM8978 -I ..\APP -I ..\AUDIOCODEC\wav -I ..\AUDIOCODEC\DSD -I ..\HARDWARE\AK4595SEQ -I ..\AUDIOCODEC\mp3 -I ..\AUDIOCODEC\mp3\helix -I ..\AUDIOCODEC\ape\apedec -I ..\AUDIOCODEC\ape -I ..\AUDIOCODEC\flac\flacdec -I ..\AUDIOCODEC\flac -I ..\HARDWARE\NOKIA5110\5110 -I ..\HARDWARE\SRAM-IF:\WORK_IN_WHU\program\done\HIFI\DEMO\ARM\HIFI_Ver4\HIFI_Ver3WAV192_MP3_ape_flac_nokia\USER\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\misc.o --omf_browse ..\obj\misc.crf --depend ..\obj\misc.d)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\USER\stm32f4xx.h)(0x571779F1)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
+F (..\FWLIB\src\stm32f4xx_gpio.c)(0x53DBB014)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\LCD -I ..\HARDWARE\KEY -I ..\HARDWARE\SRAM -I ..\HARDWARE\SDIO -I ..\MALLOC -I ..\USMART -I ..\HARDWARE\SPI -I ..\HARDWARE\W25QXX -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\TEXT -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\I2S -I ..\HARDWARE\WM8978 -I ..\APP -I ..\AUDIOCODEC\wav -I ..\AUDIOCODEC\DSD -I ..\HARDWARE\AK4595SEQ -I ..\AUDIOCODEC\mp3 -I ..\AUDIOCODEC\mp3\helix -I ..\AUDIOCODEC\ape\apedec -I ..\AUDIOCODEC\ape -I ..\AUDIOCODEC\flac\flacdec -I ..\AUDIOCODEC\flac -I ..\HARDWARE\NOKIA5110\5110 -I ..\HARDWARE\SRAM-IF:\WORK_IN_WHU\program\done\HIFI\DEMO\ARM\HIFI_Ver4\HIFI_Ver3WAV192_MP3_ape_flac_nokia\USER\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f4xx_gpio.o --omf_browse ..\obj\stm32f4xx_gpio.crf --depend ..\obj\stm32f4xx_gpio.d)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\USER\stm32f4xx.h)(0x571779F1)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
+F (..\FWLIB\src\stm32f4xx_fsmc.c)(0x53DBB014)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\LCD -I ..\HARDWARE\KEY -I ..\HARDWARE\SRAM -I ..\HARDWARE\SDIO -I ..\MALLOC -I ..\USMART -I ..\HARDWARE\SPI -I ..\HARDWARE\W25QXX -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\TEXT -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\I2S -I ..\HARDWARE\WM8978 -I ..\APP -I ..\AUDIOCODEC\wav -I ..\AUDIOCODEC\DSD -I ..\HARDWARE\AK4595SEQ -I ..\AUDIOCODEC\mp3 -I ..\AUDIOCODEC\mp3\helix -I ..\AUDIOCODEC\ape\apedec -I ..\AUDIOCODEC\ape -I ..\AUDIOCODEC\flac\flacdec -I ..\AUDIOCODEC\flac -I ..\HARDWARE\NOKIA5110\5110 -I ..\HARDWARE\SRAM-IF:\WORK_IN_WHU\program\done\HIFI\DEMO\ARM\HIFI_Ver4\HIFI_Ver3WAV192_MP3_ape_flac_nokia\USER\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f4xx_fsmc.o --omf_browse ..\obj\stm32f4xx_fsmc.crf --depend ..\obj\stm32f4xx_fsmc.d)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
+I (..\USER\stm32f4xx.h)(0x571779F1)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
+F (..\FWLIB\src\stm32f4xx_rcc.c)(0x53DBB014)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\LCD -I ..\HARDWARE\KEY -I ..\HARDWARE\SRAM -I ..\HARDWARE\SDIO -I ..\MALLOC -I ..\USMART -I ..\HARDWARE\SPI -I ..\HARDWARE\W25QXX -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\TEXT -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\I2S -I ..\HARDWARE\WM8978 -I ..\APP -I ..\AUDIOCODEC\wav -I ..\AUDIOCODEC\DSD -I ..\HARDWARE\AK4595SEQ -I ..\AUDIOCODEC\mp3 -I ..\AUDIOCODEC\mp3\helix -I ..\AUDIOCODEC\ape\apedec -I ..\AUDIOCODEC\ape -I ..\AUDIOCODEC\flac\flacdec -I ..\AUDIOCODEC\flac -I ..\HARDWARE\NOKIA5110\5110 -I ..\HARDWARE\SRAM-IF:\WORK_IN_WHU\program\done\HIFI\DEMO\ARM\HIFI_Ver4\HIFI_Ver3WAV192_MP3_ape_flac_nokia\USER\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f4xx_rcc.o --omf_browse ..\obj\stm32f4xx_rcc.crf --depend ..\obj\stm32f4xx_rcc.d)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\USER\stm32f4xx.h)(0x571779F1)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
+F (..\FWLIB\src\stm32f4xx_usart.c)(0x53DBB014)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\LCD -I ..\HARDWARE\KEY -I ..\HARDWARE\SRAM -I ..\HARDWARE\SDIO -I ..\MALLOC -I ..\USMART -I ..\HARDWARE\SPI -I ..\HARDWARE\W25QXX -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\TEXT -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\I2S -I ..\HARDWARE\WM8978 -I ..\APP -I ..\AUDIOCODEC\wav -I ..\AUDIOCODEC\DSD -I ..\HARDWARE\AK4595SEQ -I ..\AUDIOCODEC\mp3 -I ..\AUDIOCODEC\mp3\helix -I ..\AUDIOCODEC\ape\apedec -I ..\AUDIOCODEC\ape -I ..\AUDIOCODEC\flac\flacdec -I ..\AUDIOCODEC\flac -I ..\HARDWARE\NOKIA5110\5110 -I ..\HARDWARE\SRAM-IF:\WORK_IN_WHU\program\done\HIFI\DEMO\ARM\HIFI_Ver4\HIFI_Ver3WAV192_MP3_ape_flac_nokia\USER\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f4xx_usart.o --omf_browse ..\obj\stm32f4xx_usart.crf --depend ..\obj\stm32f4xx_usart.d)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\USER\stm32f4xx.h)(0x571779F1)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
+F (..\FWLIB\src\stm32f4xx_tim.c)(0x53DBB014)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\LCD -I ..\HARDWARE\KEY -I ..\HARDWARE\SRAM -I ..\HARDWARE\SDIO -I ..\MALLOC -I ..\USMART -I ..\HARDWARE\SPI -I ..\HARDWARE\W25QXX -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\TEXT -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\I2S -I ..\HARDWARE\WM8978 -I ..\APP -I ..\AUDIOCODEC\wav -I ..\AUDIOCODEC\DSD -I ..\HARDWARE\AK4595SEQ -I ..\AUDIOCODEC\mp3 -I ..\AUDIOCODEC\mp3\helix -I ..\AUDIOCODEC\ape\apedec -I ..\AUDIOCODEC\ape -I ..\AUDIOCODEC\flac\flacdec -I ..\AUDIOCODEC\flac -I ..\HARDWARE\NOKIA5110\5110 -I ..\HARDWARE\SRAM-IF:\WORK_IN_WHU\program\done\HIFI\DEMO\ARM\HIFI_Ver4\HIFI_Ver3WAV192_MP3_ape_flac_nokia\USER\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f4xx_tim.o --omf_browse ..\obj\stm32f4xx_tim.crf --depend ..\obj\stm32f4xx_tim.d)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAD)
+I (..\USER\stm32f4xx.h)(0x571779F1)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
+F (..\FWLIB\src\stm32f4xx_syscfg.c)(0x53DBB014)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\LCD -I ..\HARDWARE\KEY -I ..\HARDWARE\SRAM -I ..\HARDWARE\SDIO -I ..\MALLOC -I ..\USMART -I ..\HARDWARE\SPI -I ..\HARDWARE\W25QXX -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\TEXT -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\I2S -I ..\HARDWARE\WM8978 -I ..\APP -I ..\AUDIOCODEC\wav -I ..\AUDIOCODEC\DSD -I ..\HARDWARE\AK4595SEQ -I ..\AUDIOCODEC\mp3 -I ..\AUDIOCODEC\mp3\helix -I ..\AUDIOCODEC\ape\apedec -I ..\AUDIOCODEC\ape -I ..\AUDIOCODEC\flac\flacdec -I ..\AUDIOCODEC\flac -I ..\HARDWARE\NOKIA5110\5110 -I ..\HARDWARE\SRAM-IF:\WORK_IN_WHU\program\done\HIFI\DEMO\ARM\HIFI_Ver4\HIFI_Ver3WAV192_MP3_ape_flac_nokia\USER\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f4xx_syscfg.o --omf_browse ..\obj\stm32f4xx_syscfg.crf --depend ..\obj\stm32f4xx_syscfg.d)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\USER\stm32f4xx.h)(0x571779F1)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
+F (..\FWLIB\src\stm32f4xx_spi.c)(0x543A089C)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\LCD -I ..\HARDWARE\KEY -I ..\HARDWARE\SRAM -I ..\HARDWARE\SDIO -I ..\MALLOC -I ..\USMART -I ..\HARDWARE\SPI -I ..\HARDWARE\W25QXX -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\TEXT -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\I2S -I ..\HARDWARE\WM8978 -I ..\APP -I ..\AUDIOCODEC\wav -I ..\AUDIOCODEC\DSD -I ..\HARDWARE\AK4595SEQ -I ..\AUDIOCODEC\mp3 -I ..\AUDIOCODEC\mp3\helix -I ..\AUDIOCODEC\ape\apedec -I ..\AUDIOCODEC\ape -I ..\AUDIOCODEC\flac\flacdec -I ..\AUDIOCODEC\flac -I ..\HARDWARE\NOKIA5110\5110 -I ..\HARDWARE\SRAM-IF:\WORK_IN_WHU\program\done\HIFI\DEMO\ARM\HIFI_Ver4\HIFI_Ver3WAV192_MP3_ape_flac_nokia\USER\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f4xx_spi.o --omf_browse ..\obj\stm32f4xx_spi.crf --depend ..\obj\stm32f4xx_spi.d)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\USER\stm32f4xx.h)(0x571779F1)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
+F (..\FWLIB\src\stm32f4xx_sdio.c)(0x53DBB014)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\LCD -I ..\HARDWARE\KEY -I ..\HARDWARE\SRAM -I ..\HARDWARE\SDIO -I ..\MALLOC -I ..\USMART -I ..\HARDWARE\SPI -I ..\HARDWARE\W25QXX -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\TEXT -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\I2S -I ..\HARDWARE\WM8978 -I ..\APP -I ..\AUDIOCODEC\wav -I ..\AUDIOCODEC\DSD -I ..\HARDWARE\AK4595SEQ -I ..\AUDIOCODEC\mp3 -I ..\AUDIOCODEC\mp3\helix -I ..\AUDIOCODEC\ape\apedec -I ..\AUDIOCODEC\ape -I ..\AUDIOCODEC\flac\flacdec -I ..\AUDIOCODEC\flac -I ..\HARDWARE\NOKIA5110\5110 -I ..\HARDWARE\SRAM-IF:\WORK_IN_WHU\program\done\HIFI\DEMO\ARM\HIFI_Ver4\HIFI_Ver3WAV192_MP3_ape_flac_nokia\USER\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f4xx_sdio.o --omf_browse ..\obj\stm32f4xx_sdio.crf --depend ..\obj\stm32f4xx_sdio.d)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\USER\stm32f4xx.h)(0x571779F1)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
+F (..\FWLIB\src\stm32f4xx_dma.c)(0x53DBB014)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\LCD -I ..\HARDWARE\KEY -I ..\HARDWARE\SRAM -I ..\HARDWARE\SDIO -I ..\MALLOC -I ..\USMART -I ..\HARDWARE\SPI -I ..\HARDWARE\W25QXX -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\TEXT -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\I2S -I ..\HARDWARE\WM8978 -I ..\APP -I ..\AUDIOCODEC\wav -I ..\AUDIOCODEC\DSD -I ..\HARDWARE\AK4595SEQ -I ..\AUDIOCODEC\mp3 -I ..\AUDIOCODEC\mp3\helix -I ..\AUDIOCODEC\ape\apedec -I ..\AUDIOCODEC\ape -I ..\AUDIOCODEC\flac\flacdec -I ..\AUDIOCODEC\flac -I ..\HARDWARE\NOKIA5110\5110 -I ..\HARDWARE\SRAM-IF:\WORK_IN_WHU\program\done\HIFI\DEMO\ARM\HIFI_Ver4\HIFI_Ver3WAV192_MP3_ape_flac_nokia\USER\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f4xx_dma.o --omf_browse ..\obj\stm32f4xx_dma.crf --depend ..\obj\stm32f4xx_dma.d)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\USER\stm32f4xx.h)(0x571779F1)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
+F (..\MALLOC\malloc.c)(0x57177EC2)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\LCD -I ..\HARDWARE\KEY -I ..\HARDWARE\SRAM -I ..\HARDWARE\SDIO -I ..\MALLOC -I ..\USMART -I ..\HARDWARE\SPI -I ..\HARDWARE\W25QXX -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\TEXT -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\I2S -I ..\HARDWARE\WM8978 -I ..\APP -I ..\AUDIOCODEC\wav -I ..\AUDIOCODEC\DSD -I ..\HARDWARE\AK4595SEQ -I ..\AUDIOCODEC\mp3 -I ..\AUDIOCODEC\mp3\helix -I ..\AUDIOCODEC\ape\apedec -I ..\AUDIOCODEC\ape -I ..\AUDIOCODEC\flac\flacdec -I ..\AUDIOCODEC\flac -I ..\HARDWARE\NOKIA5110\5110 -I ..\HARDWARE\SRAM-IF:\WORK_IN_WHU\program\done\HIFI\DEMO\ARM\HIFI_Ver4\HIFI_Ver3WAV192_MP3_ape_flac_nokia\USER\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\malloc.o --omf_browse ..\obj\malloc.crf --depend ..\obj\malloc.d)
+I (..\MALLOC\malloc.h)(0x54212E6B)
+I (..\USER\stm32f4xx.h)(0x571779F1)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
+F (..\FATFS\src\diskio.c)(0x5717645A)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\LCD -I ..\HARDWARE\KEY -I ..\HARDWARE\SRAM -I ..\HARDWARE\SDIO -I ..\MALLOC -I ..\USMART -I ..\HARDWARE\SPI -I ..\HARDWARE\W25QXX -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\TEXT -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\I2S -I ..\HARDWARE\WM8978 -I ..\APP -I ..\AUDIOCODEC\wav -I ..\AUDIOCODEC\DSD -I ..\HARDWARE\AK4595SEQ -I ..\AUDIOCODEC\mp3 -I ..\AUDIOCODEC\mp3\helix -I ..\AUDIOCODEC\ape\apedec -I ..\AUDIOCODEC\ape -I ..\AUDIOCODEC\flac\flacdec -I ..\AUDIOCODEC\flac -I ..\HARDWARE\NOKIA5110\5110 -I ..\HARDWARE\SRAM-IF:\WORK_IN_WHU\program\done\HIFI\DEMO\ARM\HIFI_Ver4\HIFI_Ver3WAV192_MP3_ape_flac_nokia\USER\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\diskio.o --omf_browse ..\obj\diskio.crf --depend ..\obj\diskio.d)
+I (..\FATFS\src\diskio.h)(0x52D56672)
+I (..\FATFS\src\integer.h)(0x5378E62C)
+I (..\HARDWARE\SDIO\sdio_sdcard.h)(0x5448807D)
+I (..\USER\stm32f4xx.h)(0x571779F1)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
+I (..\HARDWARE\W25QXX\w25qxx.h)(0x5368CD39)
+I (..\SYSTEM\sys\sys.h)(0x574564B4)
+I (..\MALLOC\malloc.h)(0x54212E6B)
+F (..\FATFS\src\ff.c)(0x5400258C)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\LCD -I ..\HARDWARE\KEY -I ..\HARDWARE\SRAM -I ..\HARDWARE\SDIO -I ..\MALLOC -I ..\USMART -I ..\HARDWARE\SPI -I ..\HARDWARE\W25QXX -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\TEXT -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\I2S -I ..\HARDWARE\WM8978 -I ..\APP -I ..\AUDIOCODEC\wav -I ..\AUDIOCODEC\DSD -I ..\HARDWARE\AK4595SEQ -I ..\AUDIOCODEC\mp3 -I ..\AUDIOCODEC\mp3\helix -I ..\AUDIOCODEC\ape\apedec -I ..\AUDIOCODEC\ape -I ..\AUDIOCODEC\flac\flacdec -I ..\AUDIOCODEC\flac -I ..\HARDWARE\NOKIA5110\5110 -I ..\HARDWARE\SRAM-IF:\WORK_IN_WHU\program\done\HIFI\DEMO\ARM\HIFI_Ver4\HIFI_Ver3WAV192_MP3_ape_flac_nokia\USER\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\ff.o --omf_browse ..\obj\ff.crf --depend ..\obj\ff.d)
+I (..\FATFS\src\ff.h)(0x53D1D050)
+I (..\FATFS\src\integer.h)(0x5378E62C)
+I (..\FATFS\src\ffconf.h)(0x53C89DEF)
+I (..\FATFS\src\diskio.h)(0x52D56672)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
+F (..\FATFS\exfuns\exfuns.c)(0x572849F0)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\LCD -I ..\HARDWARE\KEY -I ..\HARDWARE\SRAM -I ..\HARDWARE\SDIO -I ..\MALLOC -I ..\USMART -I ..\HARDWARE\SPI -I ..\HARDWARE\W25QXX -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\TEXT -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\I2S -I ..\HARDWARE\WM8978 -I ..\APP -I ..\AUDIOCODEC\wav -I ..\AUDIOCODEC\DSD -I ..\HARDWARE\AK4595SEQ -I ..\AUDIOCODEC\mp3 -I ..\AUDIOCODEC\mp3\helix -I ..\AUDIOCODEC\ape\apedec -I ..\AUDIOCODEC\ape -I ..\AUDIOCODEC\flac\flacdec -I ..\AUDIOCODEC\flac -I ..\HARDWARE\NOKIA5110\5110 -I ..\HARDWARE\SRAM-IF:\WORK_IN_WHU\program\done\HIFI\DEMO\ARM\HIFI_Ver4\HIFI_Ver3WAV192_MP3_ape_flac_nokia\USER\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\exfuns.o --omf_browse ..\obj\exfuns.crf --depend ..\obj\exfuns.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
+I (..\FATFS\exfuns\exfuns.h)(0x572849F0)
+I (..\USER\stm32f4xx.h)(0x571779F1)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
+I (..\FATFS\src\ff.h)(0x53D1D050)
+I (..\FATFS\src\integer.h)(0x5378E62C)
+I (..\FATFS\src\ffconf.h)(0x53C89DEF)
+I (..\FATFS\exfuns\fattester.h)(0x537486F6)
+I (..\MALLOC\malloc.h)(0x54212E6B)
+I (..\SYSTEM\usart\usart.h)(0x571A0D0D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3E26)
+I (..\SYSTEM\sys\sys.h)(0x574564B4)
+F (..\FATFS\exfuns\fattester.c)(0x5400285B)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\LCD -I ..\HARDWARE\KEY -I ..\HARDWARE\SRAM -I ..\HARDWARE\SDIO -I ..\MALLOC -I ..\USMART -I ..\HARDWARE\SPI -I ..\HARDWARE\W25QXX -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\TEXT -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\I2S -I ..\HARDWARE\WM8978 -I ..\APP -I ..\AUDIOCODEC\wav -I ..\AUDIOCODEC\DSD -I ..\HARDWARE\AK4595SEQ -I ..\AUDIOCODEC\mp3 -I ..\AUDIOCODEC\mp3\helix -I ..\AUDIOCODEC\ape\apedec -I ..\AUDIOCODEC\ape -I ..\AUDIOCODEC\flac\flacdec -I ..\AUDIOCODEC\flac -I ..\HARDWARE\NOKIA5110\5110 -I ..\HARDWARE\SRAM-IF:\WORK_IN_WHU\program\done\HIFI\DEMO\ARM\HIFI_Ver4\HIFI_Ver3WAV192_MP3_ape_flac_nokia\USER\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\fattester.o --omf_browse ..\obj\fattester.crf --depend ..\obj\fattester.d)
+I (..\FATFS\exfuns\fattester.h)(0x537486F6)
+I (..\USER\stm32f4xx.h)(0x571779F1)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
+I (..\FATFS\src\ff.h)(0x53D1D050)
+I (..\FATFS\src\integer.h)(0x5378E62C)
+I (..\FATFS\src\ffconf.h)(0x53C89DEF)
+I (..\HARDWARE\SDIO\sdio_sdcard.h)(0x5448807D)
+I (..\USMART\usmart.h)(0x528CCEDB)
+I (..\USMART\usmart_str.h)(0x53673F41)
+I (..\SYSTEM\usart\usart.h)(0x571A0D0D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3E26)
+I (..\SYSTEM\sys\sys.h)(0x574564B4)
+I (..\FATFS\exfuns\exfuns.h)(0x572849F0)
+I (..\MALLOC\malloc.h)(0x54212E6B)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
+F (..\FATFS\exfuns\mycc936.c)(0x5717637E)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\LCD -I ..\HARDWARE\KEY -I ..\HARDWARE\SRAM -I ..\HARDWARE\SDIO -I ..\MALLOC -I ..\USMART -I ..\HARDWARE\SPI -I ..\HARDWARE\W25QXX -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\TEXT -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\I2S -I ..\HARDWARE\WM8978 -I ..\APP -I ..\AUDIOCODEC\wav -I ..\AUDIOCODEC\DSD -I ..\HARDWARE\AK4595SEQ -I ..\AUDIOCODEC\mp3 -I ..\AUDIOCODEC\mp3\helix -I ..\AUDIOCODEC\ape\apedec -I ..\AUDIOCODEC\ape -I ..\AUDIOCODEC\flac\flacdec -I ..\AUDIOCODEC\flac -I ..\HARDWARE\NOKIA5110\5110 -I ..\HARDWARE\SRAM-IF:\WORK_IN_WHU\program\done\HIFI\DEMO\ARM\HIFI_Ver4\HIFI_Ver3WAV192_MP3_ape_flac_nokia\USER\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\mycc936.o --omf_browse ..\obj\mycc936.crf --depend ..\obj\mycc936.d)
+I (..\FATFS\src\ff.h)(0x53D1D050)
+I (..\FATFS\src\integer.h)(0x5378E62C)
+I (..\FATFS\src\ffconf.h)(0x53C89DEF)
+I (..\TEXT\fontupd.h)(0x57176343)
+I (..\USER\stm32f4xx.h)(0x571779F1)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
+I (..\HARDWARE\W25QXX\w25qxx.h)(0x5368CD39)
+I (..\SYSTEM\sys\sys.h)(0x574564B4)
+F (..\AUDIOCODEC\flac\flacplay.c)(0x5732DBEE)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\LCD -I ..\HARDWARE\KEY -I ..\HARDWARE\SRAM -I ..\HARDWARE\SDIO -I ..\MALLOC -I ..\USMART -I ..\HARDWARE\SPI -I ..\HARDWARE\W25QXX -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\TEXT -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\I2S -I ..\HARDWARE\WM8978 -I ..\APP -I ..\AUDIOCODEC\wav -I ..\AUDIOCODEC\DSD -I ..\HARDWARE\AK4595SEQ -I ..\AUDIOCODEC\mp3 -I ..\AUDIOCODEC\mp3\helix -I ..\AUDIOCODEC\ape\apedec -I ..\AUDIOCODEC\ape -I ..\AUDIOCODEC\flac\flacdec -I ..\AUDIOCODEC\flac -I ..\HARDWARE\NOKIA5110\5110 -I ..\HARDWARE\SRAM-IF:\WORK_IN_WHU\program\done\HIFI\DEMO\ARM\HIFI_Ver4\HIFI_Ver3WAV192_MP3_ape_flac_nokia\USER\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\flacplay.o --omf_browse ..\obj\flacplay.crf --depend ..\obj\flacplay.d)
+I (..\AUDIOCODEC\flac\flacplay.h)(0x53AF9613)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
+I (..\AUDIOCODEC\flac\flacdec\flacdecoder.h)(0x53AD1E41)
+I (..\AUDIOCODEC\flac\flacdec\bitstreamf.h)(0x531E5764)
+I (..\SYSTEM\sys\sys.h)(0x574564B4)
+I (..\USER\stm32f4xx.h)(0x571779F1)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
+I (..\FATFS\src\ff.h)(0x53D1D050)
+I (..\FATFS\src\integer.h)(0x5378E62C)
+I (..\FATFS\src\ffconf.h)(0x53C89DEF)
+I (..\HARDWARE\I2S\i2s.h)(0x57426D0A)
+I (..\HARDWARE\WM8978\wm8978.h)(0x5724AD1A)
+I (..\MALLOC\malloc.h)(0x54212E6B)
+I (..\SYSTEM\usart\usart.h)(0x571A0D0D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3E26)
+I (..\HARDWARE\KEY\key.h)(0x572196CB)
+I (..\HARDWARE\LED\led.h)(0x53B53723)
+I (..\SYSTEM\delay\delay.h)(0x53B7797C)
+I (..\APP\audioplay.h)(0x5743CB92)
+I (..\AUDIOCODEC\wav\wavplay.h)(0x5742A7FD)
+I (..\HARDWARE\AK4595SEQ\AK4595.h)(0x572C0D1D)
+F (..\AUDIOCODEC\mp3\mp3play.c)(0x5731EE15)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\LCD -I ..\HARDWARE\KEY -I ..\HARDWARE\SRAM -I ..\HARDWARE\SDIO -I ..\MALLOC -I ..\USMART -I ..\HARDWARE\SPI -I ..\HARDWARE\W25QXX -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\TEXT -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\I2S -I ..\HARDWARE\WM8978 -I ..\APP -I ..\AUDIOCODEC\wav -I ..\AUDIOCODEC\DSD -I ..\HARDWARE\AK4595SEQ -I ..\AUDIOCODEC\mp3 -I ..\AUDIOCODEC\mp3\helix -I ..\AUDIOCODEC\ape\apedec -I ..\AUDIOCODEC\ape -I ..\AUDIOCODEC\flac\flacdec -I ..\AUDIOCODEC\flac -I ..\HARDWARE\NOKIA5110\5110 -I ..\HARDWARE\SRAM-IF:\WORK_IN_WHU\program\done\HIFI\DEMO\ARM\HIFI_Ver4\HIFI_Ver3WAV192_MP3_ape_flac_nokia\USER\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\mp3play.o --omf_browse ..\obj\mp3play.crf --depend ..\obj\mp3play.d)
+I (..\AUDIOCODEC\mp3\mp3play.h)(0x53AF9625)
+I (..\SYSTEM\sys\sys.h)(0x574564B4)
+I (..\USER\stm32f4xx.h)(0x571779F1)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
+I (..\AUDIOCODEC\mp3\helix\mp3dec.h)(0x531E5764)
+I (..\APP\audioplay.h)(0x5743CB92)
+I (..\FATFS\src\ff.h)(0x53D1D050)
+I (..\FATFS\src\integer.h)(0x5378E62C)
+I (..\FATFS\src\ffconf.h)(0x53C89DEF)
+I (..\AUDIOCODEC\wav\wavplay.h)(0x5742A7FD)
+I (..\SYSTEM\delay\delay.h)(0x53B7797C)
+I (..\MALLOC\malloc.h)(0x54212E6B)
+I (..\SYSTEM\usart\usart.h)(0x571A0D0D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
+I (..\HARDWARE\I2S\i2s.h)(0x57426D0A)
+I (..\HARDWARE\WM8978\wm8978.h)(0x5724AD1A)
+I (..\HARDWARE\KEY\key.h)(0x572196CB)
+I (..\HARDWARE\LED\led.h)(0x53B53723)
+I (..\HARDWARE\AK4595SEQ\AK4595.h)(0x572C0D1D)
+F (..\AUDIOCODEC\ape\apeplay.c)(0x57318323)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\LCD -I ..\HARDWARE\KEY -I ..\HARDWARE\SRAM -I ..\HARDWARE\SDIO -I ..\MALLOC -I ..\USMART -I ..\HARDWARE\SPI -I ..\HARDWARE\W25QXX -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\TEXT -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\I2S -I ..\HARDWARE\WM8978 -I ..\APP -I ..\AUDIOCODEC\wav -I ..\AUDIOCODEC\DSD -I ..\HARDWARE\AK4595SEQ -I ..\AUDIOCODEC\mp3 -I ..\AUDIOCODEC\mp3\helix -I ..\AUDIOCODEC\ape\apedec -I ..\AUDIOCODEC\ape -I ..\AUDIOCODEC\flac\flacdec -I ..\AUDIOCODEC\flac -I ..\HARDWARE\NOKIA5110\5110 -I ..\HARDWARE\SRAM-IF:\WORK_IN_WHU\program\done\HIFI\DEMO\ARM\HIFI_Ver4\HIFI_Ver3WAV192_MP3_ape_flac_nokia\USER\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\apeplay.o --omf_browse ..\obj\apeplay.crf --depend ..\obj\apeplay.d)
+I (..\AUDIOCODEC\ape\apeplay.h)(0x53AF960B)
+I (..\AUDIOCODEC\ape\apedec\apedecoder.h)(0x53AEBA8F)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\AUDIOCODEC\ape\apedec\parser.h)(0x53AD50E8)
+I (..\AUDIOCODEC\ape\apedec\demac_config.h)(0x531E5764)
+I (..\FATFS\src\ff.h)(0x53D1D050)
+I (..\FATFS\src\integer.h)(0x5378E62C)
+I (..\FATFS\src\ffconf.h)(0x53C89DEF)
+I (..\SYSTEM\sys\sys.h)(0x574564B4)
+I (..\USER\stm32f4xx.h)(0x571779F1)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
+I (..\SYSTEM\usart\usart.h)(0x571A0D0D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3E26)
+I (..\SYSTEM\delay\delay.h)(0x53B7797C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
+I (..\MALLOC\malloc.h)(0x54212E6B)
+I (..\HARDWARE\KEY\key.h)(0x572196CB)
+I (..\HARDWARE\I2S\i2s.h)(0x57426D0A)
+I (..\HARDWARE\WM8978\wm8978.h)(0x5724AD1A)
+I (..\APP\audioplay.h)(0x5743CB92)
+I (..\AUDIOCODEC\wav\wavplay.h)(0x5742A7FD)
+I (..\HARDWARE\AK4595SEQ\AK4595.h)(0x572C0D1D)
+F (..\AUDIOCODEC\wav\wavplay.c)(0x5742AA17)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\LCD -I ..\HARDWARE\KEY -I ..\HARDWARE\SRAM -I ..\HARDWARE\SDIO -I ..\MALLOC -I ..\USMART -I ..\HARDWARE\SPI -I ..\HARDWARE\W25QXX -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\TEXT -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\I2S -I ..\HARDWARE\WM8978 -I ..\APP -I ..\AUDIOCODEC\wav -I ..\AUDIOCODEC\DSD -I ..\HARDWARE\AK4595SEQ -I ..\AUDIOCODEC\mp3 -I ..\AUDIOCODEC\mp3\helix -I ..\AUDIOCODEC\ape\apedec -I ..\AUDIOCODEC\ape -I ..\AUDIOCODEC\flac\flacdec -I ..\AUDIOCODEC\flac -I ..\HARDWARE\NOKIA5110\5110 -I ..\HARDWARE\SRAM-IF:\WORK_IN_WHU\program\done\HIFI\DEMO\ARM\HIFI_Ver4\HIFI_Ver3WAV192_MP3_ape_flac_nokia\USER\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\wavplay.o --omf_browse ..\obj\wavplay.crf --depend ..\obj\wavplay.d)
+I (..\AUDIOCODEC\wav\wavplay.h)(0x5742A7FD)
+I (..\SYSTEM\sys\sys.h)(0x574564B4)
+I (..\USER\stm32f4xx.h)(0x571779F1)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
+I (..\APP\audioplay.h)(0x5743CB92)
+I (..\FATFS\src\ff.h)(0x53D1D050)
+I (..\FATFS\src\integer.h)(0x5378E62C)
+I (..\FATFS\src\ffconf.h)(0x53C89DEF)
+I (..\SYSTEM\usart\usart.h)(0x571A0D0D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3E26)
+I (..\SYSTEM\delay\delay.h)(0x53B7797C)
+I (..\MALLOC\malloc.h)(0x54212E6B)
+I (..\HARDWARE\I2S\i2s.h)(0x57426D0A)
+I (..\HARDWARE\WM8978\wm8978.h)(0x5724AD1A)
+I (..\HARDWARE\KEY\key.h)(0x572196CB)
+I (..\HARDWARE\LED\led.h)(0x53B53723)
+I (..\HARDWARE\AK4595SEQ\AK4595.h)(0x572C0D1D)
+I (..\HARDWARE\IIC\myiic.h)(0x57416900)
+I (..\HARDWARE\NOKIA5110\5110\nokia5110.h)(0x5731E9A2)
+I (..\APP\test_cpld.h)(0x5742ABFB)
+F (..\AUDIOCODEC\DSD\sacd_dsf.c)(0x5745813A)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\LCD -I ..\HARDWARE\KEY -I ..\HARDWARE\SRAM -I ..\HARDWARE\SDIO -I ..\MALLOC -I ..\USMART -I ..\HARDWARE\SPI -I ..\HARDWARE\W25QXX -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\TEXT -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\I2S -I ..\HARDWARE\WM8978 -I ..\APP -I ..\AUDIOCODEC\wav -I ..\AUDIOCODEC\DSD -I ..\HARDWARE\AK4595SEQ -I ..\AUDIOCODEC\mp3 -I ..\AUDIOCODEC\mp3\helix -I ..\AUDIOCODEC\ape\apedec -I ..\AUDIOCODEC\ape -I ..\AUDIOCODEC\flac\flacdec -I ..\AUDIOCODEC\flac -I ..\HARDWARE\NOKIA5110\5110 -I ..\HARDWARE\SRAM-IF:\WORK_IN_WHU\program\done\HIFI\DEMO\ARM\HIFI_Ver4\HIFI_Ver3WAV192_MP3_ape_flac_nokia\USER\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\sacd_dsf.o --omf_browse ..\obj\sacd_dsf.crf --depend ..\obj\sacd_dsf.d)
+I (..\SYSTEM\delay\delay.h)(0x53B7797C)
+I (..\SYSTEM\sys\sys.h)(0x574564B4)
+I (..\USER\stm32f4xx.h)(0x571779F1)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
+I (..\HARDWARE\LED\led.h)(0x53B53723)
+I (..\HARDWARE\KEY\key.h)(0x572196CB)
+I (..\AUDIOCODEC\DSD\endianess.h)(0x4E1583D2)
+I (..\APP\audioplay.h)(0x5743CB92)
+I (..\FATFS\src\ff.h)(0x53D1D050)
+I (..\FATFS\src\integer.h)(0x5378E62C)
+I (..\FATFS\src\ffconf.h)(0x53C89DEF)
+I (..\AUDIOCODEC\wav\wavplay.h)(0x5742A7FD)
+I (..\SYSTEM\usart\usart.h)(0x571A0D0D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3E26)
+I (..\MALLOC\malloc.h)(0x54212E6B)
+I (..\HARDWARE\I2S\i2s.h)(0x57426D0A)
+I (..\AUDIOCODEC\DSD\sacd_dsf.h)(0x57284A70)
+I (..\HARDWARE\AK4595SEQ\AK4595.h)(0x572C0D1D)
+I (..\HARDWARE\IIC\myiic.h)(0x57416900)
+F (..\APP\audioplay.c)(0x5AC46951)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\LCD -I ..\HARDWARE\KEY -I ..\HARDWARE\SRAM -I ..\HARDWARE\SDIO -I ..\MALLOC -I ..\USMART -I ..\HARDWARE\SPI -I ..\HARDWARE\W25QXX -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\TEXT -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\I2S -I ..\HARDWARE\WM8978 -I ..\APP -I ..\AUDIOCODEC\wav -I ..\AUDIOCODEC\DSD -I ..\HARDWARE\AK4595SEQ -I ..\AUDIOCODEC\mp3 -I ..\AUDIOCODEC\mp3\helix -I ..\AUDIOCODEC\ape\apedec -I ..\AUDIOCODEC\ape -I ..\AUDIOCODEC\flac\flacdec -I ..\AUDIOCODEC\flac -I ..\HARDWARE\NOKIA5110\5110 -I ..\HARDWARE\SRAM-IF:\WORK_IN_WHU\program\done\HIFI\DEMO\ARM\HIFI_Ver4\HIFI_Ver3WAV192_MP3_ape_flac_nokia\USER\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\audioplay.o --omf_browse ..\obj\audioplay.crf --depend ..\obj\audioplay.d)
+I (..\APP\audioplay.h)(0x5743CB92)
+I (..\SYSTEM\sys\sys.h)(0x574564B4)
+I (..\USER\stm32f4xx.h)(0x571779F1)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
+I (..\FATFS\src\ff.h)(0x53D1D050)
+I (..\FATFS\src\integer.h)(0x5378E62C)
+I (..\FATFS\src\ffconf.h)(0x53C89DEF)
+I (..\AUDIOCODEC\wav\wavplay.h)(0x5742A7FD)
+I (..\MALLOC\malloc.h)(0x54212E6B)
+I (..\SYSTEM\usart\usart.h)(0x571A0D0D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3E26)
+I (..\HARDWARE\WM8978\wm8978.h)(0x5724AD1A)
+I (..\HARDWARE\I2S\i2s.h)(0x57426D0A)
+I (..\HARDWARE\LED\led.h)(0x53B53723)
+I (..\HARDWARE\LCD\lcd.h)(0x55C1EC9F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
+I (..\SYSTEM\delay\delay.h)(0x53B7797C)
+I (..\HARDWARE\KEY\key.h)(0x572196CB)
+I (..\FATFS\exfuns\exfuns.h)(0x572849F0)
+I (..\TEXT\text.h)(0x54213577)
+I (..\TEXT\fontupd.h)(0x57176343)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
+I (..\AUDIOCODEC\DSD\sacd_dsf.h)(0x57284A70)
+I (..\AUDIOCODEC\mp3\mp3play.h)(0x53AF9625)
+I (..\AUDIOCODEC\mp3\helix\mp3dec.h)(0x531E5764)
+I (..\AUDIOCODEC\ape\apeplay.h)(0x53AF960B)
+I (..\AUDIOCODEC\ape\apedec\apedecoder.h)(0x53AEBA8F)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x574E3E26)
+I (..\AUDIOCODEC\ape\apedec\parser.h)(0x53AD50E8)
+I (..\AUDIOCODEC\ape\apedec\demac_config.h)(0x531E5764)
+I (..\AUDIOCODEC\flac\flacplay.h)(0x53AF9613)
+I (..\AUDIOCODEC\flac\flacdec\flacdecoder.h)(0x53AD1E41)
+I (..\AUDIOCODEC\flac\flacdec\bitstreamf.h)(0x531E5764)
+I (..\HARDWARE\NOKIA5110\5110\nokia5110.h)(0x5731E9A2)
+F (..\AUDIOCODEC\mp3\helix\bitstream.c)(0x531E5764)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\LCD -I ..\HARDWARE\KEY -I ..\HARDWARE\SRAM -I ..\HARDWARE\SDIO -I ..\MALLOC -I ..\USMART -I ..\HARDWARE\SPI -I ..\HARDWARE\W25QXX -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\TEXT -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\I2S -I ..\HARDWARE\WM8978 -I ..\APP -I ..\AUDIOCODEC\wav -I ..\AUDIOCODEC\DSD -I ..\HARDWARE\AK4595SEQ -I ..\AUDIOCODEC\mp3 -I ..\AUDIOCODEC\mp3\helix -I ..\AUDIOCODEC\ape\apedec -I ..\AUDIOCODEC\ape -I ..\AUDIOCODEC\flac\flacdec -I ..\AUDIOCODEC\flac -I ..\HARDWARE\NOKIA5110\5110 -I ..\HARDWARE\SRAM-IF:\WORK_IN_WHU\program\done\HIFI\DEMO\ARM\HIFI_Ver4\HIFI_Ver3WAV192_MP3_ape_flac_nokia\USER\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\bitstream.o --omf_browse ..\obj\bitstream.crf --depend ..\obj\bitstream.d)
+I (..\AUDIOCODEC\mp3\helix\coder.h)(0x531E5764)
+I (..\AUDIOCODEC\mp3\helix\mp3common.h)(0x531E5764)
+I (..\AUDIOCODEC\mp3\helix\mp3dec.h)(0x531E5764)
+I (..\AUDIOCODEC\mp3\helix\statname.h)(0x531E5764)
+I (..\AUDIOCODEC\mp3\helix\assembly.h)(0x531E5764)
+F (..\AUDIOCODEC\mp3\helix\buffers.c)(0x53A668EA)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\LCD -I ..\HARDWARE\KEY -I ..\HARDWARE\SRAM -I ..\HARDWARE\SDIO -I ..\MALLOC -I ..\USMART -I ..\HARDWARE\SPI -I ..\HARDWARE\W25QXX -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\TEXT -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\I2S -I ..\HARDWARE\WM8978 -I ..\APP -I ..\AUDIOCODEC\wav -I ..\AUDIOCODEC\DSD -I ..\HARDWARE\AK4595SEQ -I ..\AUDIOCODEC\mp3 -I ..\AUDIOCODEC\mp3\helix -I ..\AUDIOCODEC\ape\apedec -I ..\AUDIOCODEC\ape -I ..\AUDIOCODEC\flac\flacdec -I ..\AUDIOCODEC\flac -I ..\HARDWARE\NOKIA5110\5110 -I ..\HARDWARE\SRAM-IF:\WORK_IN_WHU\program\done\HIFI\DEMO\ARM\HIFI_Ver4\HIFI_Ver3WAV192_MP3_ape_flac_nokia\USER\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\buffers.o --omf_browse ..\obj\buffers.crf --depend ..\obj\buffers.d)
+I (..\AUDIOCODEC\mp3\helix\coder.h)(0x531E5764)
+I (..\AUDIOCODEC\mp3\helix\mp3common.h)(0x531E5764)
+I (..\AUDIOCODEC\mp3\helix\mp3dec.h)(0x531E5764)
+I (..\AUDIOCODEC\mp3\helix\statname.h)(0x531E5764)
+I (..\MALLOC\malloc.h)(0x54212E6B)
+I (..\USER\stm32f4xx.h)(0x571779F1)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
+F (..\AUDIOCODEC\mp3\helix\dct32.c)(0x531E5764)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\LCD -I ..\HARDWARE\KEY -I ..\HARDWARE\SRAM -I ..\HARDWARE\SDIO -I ..\MALLOC -I ..\USMART -I ..\HARDWARE\SPI -I ..\HARDWARE\W25QXX -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\TEXT -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\I2S -I ..\HARDWARE\WM8978 -I ..\APP -I ..\AUDIOCODEC\wav -I ..\AUDIOCODEC\DSD -I ..\HARDWARE\AK4595SEQ -I ..\AUDIOCODEC\mp3 -I ..\AUDIOCODEC\mp3\helix -I ..\AUDIOCODEC\ape\apedec -I ..\AUDIOCODEC\ape -I ..\AUDIOCODEC\flac\flacdec -I ..\AUDIOCODEC\flac -I ..\HARDWARE\NOKIA5110\5110 -I ..\HARDWARE\SRAM-IF:\WORK_IN_WHU\program\done\HIFI\DEMO\ARM\HIFI_Ver4\HIFI_Ver3WAV192_MP3_ape_flac_nokia\USER\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\dct32.o --omf_browse ..\obj\dct32.crf --depend ..\obj\dct32.d)
+I (..\AUDIOCODEC\mp3\helix\coder.h)(0x531E5764)
+I (..\AUDIOCODEC\mp3\helix\mp3common.h)(0x531E5764)
+I (..\AUDIOCODEC\mp3\helix\mp3dec.h)(0x531E5764)
+I (..\AUDIOCODEC\mp3\helix\statname.h)(0x531E5764)
+I (..\AUDIOCODEC\mp3\helix\assembly.h)(0x531E5764)
+F (..\AUDIOCODEC\mp3\helix\dequant.c)(0x531E5764)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\LCD -I ..\HARDWARE\KEY -I ..\HARDWARE\SRAM -I ..\HARDWARE\SDIO -I ..\MALLOC -I ..\USMART -I ..\HARDWARE\SPI -I ..\HARDWARE\W25QXX -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\TEXT -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\I2S -I ..\HARDWARE\WM8978 -I ..\APP -I ..\AUDIOCODEC\wav -I ..\AUDIOCODEC\DSD -I ..\HARDWARE\AK4595SEQ -I ..\AUDIOCODEC\mp3 -I ..\AUDIOCODEC\mp3\helix -I ..\AUDIOCODEC\ape\apedec -I ..\AUDIOCODEC\ape -I ..\AUDIOCODEC\flac\flacdec -I ..\AUDIOCODEC\flac -I ..\HARDWARE\NOKIA5110\5110 -I ..\HARDWARE\SRAM-IF:\WORK_IN_WHU\program\done\HIFI\DEMO\ARM\HIFI_Ver4\HIFI_Ver3WAV192_MP3_ape_flac_nokia\USER\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\dequant.o --omf_browse ..\obj\dequant.crf --depend ..\obj\dequant.d)
+I (..\AUDIOCODEC\mp3\helix\coder.h)(0x531E5764)
+I (..\AUDIOCODEC\mp3\helix\mp3common.h)(0x531E5764)
+I (..\AUDIOCODEC\mp3\helix\mp3dec.h)(0x531E5764)
+I (..\AUDIOCODEC\mp3\helix\statname.h)(0x531E5764)
+I (..\AUDIOCODEC\mp3\helix\assembly.h)(0x531E5764)
+F (..\AUDIOCODEC\mp3\helix\dqchan.c)(0x53A54D83)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\LCD -I ..\HARDWARE\KEY -I ..\HARDWARE\SRAM -I ..\HARDWARE\SDIO -I ..\MALLOC -I ..\USMART -I ..\HARDWARE\SPI -I ..\HARDWARE\W25QXX -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\TEXT -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\I2S -I ..\HARDWARE\WM8978 -I ..\APP -I ..\AUDIOCODEC\wav -I ..\AUDIOCODEC\DSD -I ..\HARDWARE\AK4595SEQ -I ..\AUDIOCODEC\mp3 -I ..\AUDIOCODEC\mp3\helix -I ..\AUDIOCODEC\ape\apedec -I ..\AUDIOCODEC\ape -I ..\AUDIOCODEC\flac\flacdec -I ..\AUDIOCODEC\flac -I ..\HARDWARE\NOKIA5110\5110 -I ..\HARDWARE\SRAM-IF:\WORK_IN_WHU\program\done\HIFI\DEMO\ARM\HIFI_Ver4\HIFI_Ver3WAV192_MP3_ape_flac_nokia\USER\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\dqchan.o --omf_browse ..\obj\dqchan.crf --depend ..\obj\dqchan.d)
+I (..\AUDIOCODEC\mp3\helix\coder.h)(0x531E5764)
+I (..\AUDIOCODEC\mp3\helix\mp3common.h)(0x531E5764)
+I (..\AUDIOCODEC\mp3\helix\mp3dec.h)(0x531E5764)
+I (..\AUDIOCODEC\mp3\helix\statname.h)(0x531E5764)
+I (..\AUDIOCODEC\mp3\helix\assembly.h)(0x531E5764)
+F (..\AUDIOCODEC\mp3\helix\huffman.c)(0x53A54D83)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\LCD -I ..\HARDWARE\KEY -I ..\HARDWARE\SRAM -I ..\HARDWARE\SDIO -I ..\MALLOC -I ..\USMART -I ..\HARDWARE\SPI -I ..\HARDWARE\W25QXX -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\TEXT -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\I2S -I ..\HARDWARE\WM8978 -I ..\APP -I ..\AUDIOCODEC\wav -I ..\AUDIOCODEC\DSD -I ..\HARDWARE\AK4595SEQ -I ..\AUDIOCODEC\mp3 -I ..\AUDIOCODEC\mp3\helix -I ..\AUDIOCODEC\ape\apedec -I ..\AUDIOCODEC\ape -I ..\AUDIOCODEC\flac\flacdec -I ..\AUDIOCODEC\flac -I ..\HARDWARE\NOKIA5110\5110 -I ..\HARDWARE\SRAM-IF:\WORK_IN_WHU\program\done\HIFI\DEMO\ARM\HIFI_Ver4\HIFI_Ver3WAV192_MP3_ape_flac_nokia\USER\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\huffman.o --omf_browse ..\obj\huffman.crf --depend ..\obj\huffman.d)
+I (..\AUDIOCODEC\mp3\helix\coder.h)(0x531E5764)
+I (..\AUDIOCODEC\mp3\helix\mp3common.h)(0x531E5764)
+I (..\AUDIOCODEC\mp3\helix\mp3dec.h)(0x531E5764)
+I (..\AUDIOCODEC\mp3\helix\statname.h)(0x531E5764)
+F (..\AUDIOCODEC\mp3\helix\hufftabs.c)(0x531E5764)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\LCD -I ..\HARDWARE\KEY -I ..\HARDWARE\SRAM -I ..\HARDWARE\SDIO -I ..\MALLOC -I ..\USMART -I ..\HARDWARE\SPI -I ..\HARDWARE\W25QXX -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\TEXT -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\I2S -I ..\HARDWARE\WM8978 -I ..\APP -I ..\AUDIOCODEC\wav -I ..\AUDIOCODEC\DSD -I ..\HARDWARE\AK4595SEQ -I ..\AUDIOCODEC\mp3 -I ..\AUDIOCODEC\mp3\helix -I ..\AUDIOCODEC\ape\apedec -I ..\AUDIOCODEC\ape -I ..\AUDIOCODEC\flac\flacdec -I ..\AUDIOCODEC\flac -I ..\HARDWARE\NOKIA5110\5110 -I ..\HARDWARE\SRAM-IF:\WORK_IN_WHU\program\done\HIFI\DEMO\ARM\HIFI_Ver4\HIFI_Ver3WAV192_MP3_ape_flac_nokia\USER\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\hufftabs.o --omf_browse ..\obj\hufftabs.crf --depend ..\obj\hufftabs.d)
+I (..\AUDIOCODEC\mp3\helix\coder.h)(0x531E5764)
+I (..\AUDIOCODEC\mp3\helix\mp3common.h)(0x531E5764)
+I (..\AUDIOCODEC\mp3\helix\mp3dec.h)(0x531E5764)
+I (..\AUDIOCODEC\mp3\helix\statname.h)(0x531E5764)
+F (..\AUDIOCODEC\mp3\helix\imdct.c)(0x531E5764)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\LCD -I ..\HARDWARE\KEY -I ..\HARDWARE\SRAM -I ..\HARDWARE\SDIO -I ..\MALLOC -I ..\USMART -I ..\HARDWARE\SPI -I ..\HARDWARE\W25QXX -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\TEXT -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\I2S -I ..\HARDWARE\WM8978 -I ..\APP -I ..\AUDIOCODEC\wav -I ..\AUDIOCODEC\DSD -I ..\HARDWARE\AK4595SEQ -I ..\AUDIOCODEC\mp3 -I ..\AUDIOCODEC\mp3\helix -I ..\AUDIOCODEC\ape\apedec -I ..\AUDIOCODEC\ape -I ..\AUDIOCODEC\flac\flacdec -I ..\AUDIOCODEC\flac -I ..\HARDWARE\NOKIA5110\5110 -I ..\HARDWARE\SRAM-IF:\WORK_IN_WHU\program\done\HIFI\DEMO\ARM\HIFI_Ver4\HIFI_Ver3WAV192_MP3_ape_flac_nokia\USER\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\imdct.o --omf_browse ..\obj\imdct.crf --depend ..\obj\imdct.d)
+I (..\AUDIOCODEC\mp3\helix\coder.h)(0x531E5764)
+I (..\AUDIOCODEC\mp3\helix\mp3common.h)(0x531E5764)
+I (..\AUDIOCODEC\mp3\helix\mp3dec.h)(0x531E5764)
+I (..\AUDIOCODEC\mp3\helix\statname.h)(0x531E5764)
+I (..\AUDIOCODEC\mp3\helix\assembly.h)(0x531E5764)
+F (..\AUDIOCODEC\mp3\helix\mp3dec.c)(0x531E5764)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\LCD -I ..\HARDWARE\KEY -I ..\HARDWARE\SRAM -I ..\HARDWARE\SDIO -I ..\MALLOC -I ..\USMART -I ..\HARDWARE\SPI -I ..\HARDWARE\W25QXX -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\TEXT -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\I2S -I ..\HARDWARE\WM8978 -I ..\APP -I ..\AUDIOCODEC\wav -I ..\AUDIOCODEC\DSD -I ..\HARDWARE\AK4595SEQ -I ..\AUDIOCODEC\mp3 -I ..\AUDIOCODEC\mp3\helix -I ..\AUDIOCODEC\ape\apedec -I ..\AUDIOCODEC\ape -I ..\AUDIOCODEC\flac\flacdec -I ..\AUDIOCODEC\flac -I ..\HARDWARE\NOKIA5110\5110 -I ..\HARDWARE\SRAM-IF:\WORK_IN_WHU\program\done\HIFI\DEMO\ARM\HIFI_Ver4\HIFI_Ver3WAV192_MP3_ape_flac_nokia\USER\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\mp3dec.o --omf_browse ..\obj\mp3dec.crf --depend ..\obj\mp3dec.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
+I (..\AUDIOCODEC\mp3\helix\mp3common.h)(0x531E5764)
+I (..\AUDIOCODEC\mp3\helix\mp3dec.h)(0x531E5764)
+I (..\AUDIOCODEC\mp3\helix\statname.h)(0x531E5764)
+F (..\AUDIOCODEC\mp3\helix\mp3tabs.c)(0x531E5764)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\LCD -I ..\HARDWARE\KEY -I ..\HARDWARE\SRAM -I ..\HARDWARE\SDIO -I ..\MALLOC -I ..\USMART -I ..\HARDWARE\SPI -I ..\HARDWARE\W25QXX -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\TEXT -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\I2S -I ..\HARDWARE\WM8978 -I ..\APP -I ..\AUDIOCODEC\wav -I ..\AUDIOCODEC\DSD -I ..\HARDWARE\AK4595SEQ -I ..\AUDIOCODEC\mp3 -I ..\AUDIOCODEC\mp3\helix -I ..\AUDIOCODEC\ape\apedec -I ..\AUDIOCODEC\ape -I ..\AUDIOCODEC\flac\flacdec -I ..\AUDIOCODEC\flac -I ..\HARDWARE\NOKIA5110\5110 -I ..\HARDWARE\SRAM-IF:\WORK_IN_WHU\program\done\HIFI\DEMO\ARM\HIFI_Ver4\HIFI_Ver3WAV192_MP3_ape_flac_nokia\USER\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\mp3tabs.o --omf_browse ..\obj\mp3tabs.crf --depend ..\obj\mp3tabs.d)
+I (..\AUDIOCODEC\mp3\helix\mp3common.h)(0x531E5764)
+I (..\AUDIOCODEC\mp3\helix\mp3dec.h)(0x531E5764)
+I (..\AUDIOCODEC\mp3\helix\statname.h)(0x531E5764)
+F (..\AUDIOCODEC\mp3\helix\scalfact.c)(0x53A54D82)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\LCD -I ..\HARDWARE\KEY -I ..\HARDWARE\SRAM -I ..\HARDWARE\SDIO -I ..\MALLOC -I ..\USMART -I ..\HARDWARE\SPI -I ..\HARDWARE\W25QXX -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\TEXT -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\I2S -I ..\HARDWARE\WM8978 -I ..\APP -I ..\AUDIOCODEC\wav -I ..\AUDIOCODEC\DSD -I ..\HARDWARE\AK4595SEQ -I ..\AUDIOCODEC\mp3 -I ..\AUDIOCODEC\mp3\helix -I ..\AUDIOCODEC\ape\apedec -I ..\AUDIOCODEC\ape -I ..\AUDIOCODEC\flac\flacdec -I ..\AUDIOCODEC\flac -I ..\HARDWARE\NOKIA5110\5110 -I ..\HARDWARE\SRAM-IF:\WORK_IN_WHU\program\done\HIFI\DEMO\ARM\HIFI_Ver4\HIFI_Ver3WAV192_MP3_ape_flac_nokia\USER\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\scalfact.o --omf_browse ..\obj\scalfact.crf --depend ..\obj\scalfact.d)
+I (..\AUDIOCODEC\mp3\helix\coder.h)(0x531E5764)
+I (..\AUDIOCODEC\mp3\helix\mp3common.h)(0x531E5764)
+I (..\AUDIOCODEC\mp3\helix\mp3dec.h)(0x531E5764)
+I (..\AUDIOCODEC\mp3\helix\statname.h)(0x531E5764)
+F (..\AUDIOCODEC\mp3\helix\stproc.c)(0x531E5764)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\LCD -I ..\HARDWARE\KEY -I ..\HARDWARE\SRAM -I ..\HARDWARE\SDIO -I ..\MALLOC -I ..\USMART -I ..\HARDWARE\SPI -I ..\HARDWARE\W25QXX -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\TEXT -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\I2S -I ..\HARDWARE\WM8978 -I ..\APP -I ..\AUDIOCODEC\wav -I ..\AUDIOCODEC\DSD -I ..\HARDWARE\AK4595SEQ -I ..\AUDIOCODEC\mp3 -I ..\AUDIOCODEC\mp3\helix -I ..\AUDIOCODEC\ape\apedec -I ..\AUDIOCODEC\ape -I ..\AUDIOCODEC\flac\flacdec -I ..\AUDIOCODEC\flac -I ..\HARDWARE\NOKIA5110\5110 -I ..\HARDWARE\SRAM-IF:\WORK_IN_WHU\program\done\HIFI\DEMO\ARM\HIFI_Ver4\HIFI_Ver3WAV192_MP3_ape_flac_nokia\USER\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\stproc.o --omf_browse ..\obj\stproc.crf --depend ..\obj\stproc.d)
+I (..\AUDIOCODEC\mp3\helix\coder.h)(0x531E5764)
+I (..\AUDIOCODEC\mp3\helix\mp3common.h)(0x531E5764)
+I (..\AUDIOCODEC\mp3\helix\mp3dec.h)(0x531E5764)
+I (..\AUDIOCODEC\mp3\helix\statname.h)(0x531E5764)
+I (..\AUDIOCODEC\mp3\helix\assembly.h)(0x531E5764)
+F (..\AUDIOCODEC\mp3\helix\subband.c)(0x53A54D82)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\LCD -I ..\HARDWARE\KEY -I ..\HARDWARE\SRAM -I ..\HARDWARE\SDIO -I ..\MALLOC -I ..\USMART -I ..\HARDWARE\SPI -I ..\HARDWARE\W25QXX -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\TEXT -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\I2S -I ..\HARDWARE\WM8978 -I ..\APP -I ..\AUDIOCODEC\wav -I ..\AUDIOCODEC\DSD -I ..\HARDWARE\AK4595SEQ -I ..\AUDIOCODEC\mp3 -I ..\AUDIOCODEC\mp3\helix -I ..\AUDIOCODEC\ape\apedec -I ..\AUDIOCODEC\ape -I ..\AUDIOCODEC\flac\flacdec -I ..\AUDIOCODEC\flac -I ..\HARDWARE\NOKIA5110\5110 -I ..\HARDWARE\SRAM-IF:\WORK_IN_WHU\program\done\HIFI\DEMO\ARM\HIFI_Ver4\HIFI_Ver3WAV192_MP3_ape_flac_nokia\USER\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\subband.o --omf_browse ..\obj\subband.crf --depend ..\obj\subband.d)
+I (..\AUDIOCODEC\mp3\helix\coder.h)(0x531E5764)
+I (..\AUDIOCODEC\mp3\helix\mp3common.h)(0x531E5764)
+I (..\AUDIOCODEC\mp3\helix\mp3dec.h)(0x531E5764)
+I (..\AUDIOCODEC\mp3\helix\statname.h)(0x531E5764)
+I (..\AUDIOCODEC\mp3\helix\assembly.h)(0x531E5764)
+F (..\AUDIOCODEC\mp3\helix\trigtabs.c)(0x531E5764)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\LCD -I ..\HARDWARE\KEY -I ..\HARDWARE\SRAM -I ..\HARDWARE\SDIO -I ..\MALLOC -I ..\USMART -I ..\HARDWARE\SPI -I ..\HARDWARE\W25QXX -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\TEXT -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\I2S -I ..\HARDWARE\WM8978 -I ..\APP -I ..\AUDIOCODEC\wav -I ..\AUDIOCODEC\DSD -I ..\HARDWARE\AK4595SEQ -I ..\AUDIOCODEC\mp3 -I ..\AUDIOCODEC\mp3\helix -I ..\AUDIOCODEC\ape\apedec -I ..\AUDIOCODEC\ape -I ..\AUDIOCODEC\flac\flacdec -I ..\AUDIOCODEC\flac -I ..\HARDWARE\NOKIA5110\5110 -I ..\HARDWARE\SRAM-IF:\WORK_IN_WHU\program\done\HIFI\DEMO\ARM\HIFI_Ver4\HIFI_Ver3WAV192_MP3_ape_flac_nokia\USER\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\trigtabs.o --omf_browse ..\obj\trigtabs.crf --depend ..\obj\trigtabs.d)
+I (..\AUDIOCODEC\mp3\helix\coder.h)(0x531E5764)
+I (..\AUDIOCODEC\mp3\helix\mp3common.h)(0x531E5764)
+I (..\AUDIOCODEC\mp3\helix\mp3dec.h)(0x531E5764)
+I (..\AUDIOCODEC\mp3\helix\statname.h)(0x531E5764)
+F (..\AUDIOCODEC\mp3\helix\arm\asmmisc_rvds.s)(0x531E5764)(--cpu Cortex-M4.fp -g --apcs=interwork -IF:\WORK_IN_WHU\program\done\HIFI\DEMO\ARM\HIFI_Ver4\HIFI_Ver3WAV192_MP3_ape_flac_nokia\USER\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 521" --pd "STM32F40_41xxx SETA 1"--list ..\obj\asmmisc_rvds.lst --xref -o ..\obj\asmmisc_rvds.o --depend ..\obj\asmmisc_rvds.d)
+F (..\AUDIOCODEC\mp3\helix\arm\asmpoly_thumb2_rvds.s)(0x531E5764)(--cpu Cortex-M4.fp -g --apcs=interwork -IF:\WORK_IN_WHU\program\done\HIFI\DEMO\ARM\HIFI_Ver4\HIFI_Ver3WAV192_MP3_ape_flac_nokia\USER\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 521" --pd "STM32F40_41xxx SETA 1"--list ..\obj\asmpoly_thumb2_rvds.lst --xref -o ..\obj\asmpoly_thumb2_rvds.o --depend ..\obj\asmpoly_thumb2_rvds.d)
+F (..\AUDIOCODEC\ape\apedec\apedecoder.c)(0x53C67BA6)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\LCD -I ..\HARDWARE\KEY -I ..\HARDWARE\SRAM -I ..\HARDWARE\SDIO -I ..\MALLOC -I ..\USMART -I ..\HARDWARE\SPI -I ..\HARDWARE\W25QXX -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\TEXT -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\I2S -I ..\HARDWARE\WM8978 -I ..\APP -I ..\AUDIOCODEC\wav -I ..\AUDIOCODEC\DSD -I ..\HARDWARE\AK4595SEQ -I ..\AUDIOCODEC\mp3 -I ..\AUDIOCODEC\mp3\helix -I ..\AUDIOCODEC\ape\apedec -I ..\AUDIOCODEC\ape -I ..\AUDIOCODEC\flac\flacdec -I ..\AUDIOCODEC\flac -I ..\HARDWARE\NOKIA5110\5110 -I ..\HARDWARE\SRAM-IF:\WORK_IN_WHU\program\done\HIFI\DEMO\ARM\HIFI_Ver4\HIFI_Ver3WAV192_MP3_ape_flac_nokia\USER\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\apedecoder.o --omf_browse ..\obj\apedecoder.crf --depend ..\obj\apedecoder.d)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
+I (..\AUDIOCODEC\ape\apedec\apedecoder.h)(0x53AEBA8F)
+I (..\AUDIOCODEC\ape\apedec\parser.h)(0x53AD50E8)
+I (..\AUDIOCODEC\ape\apedec\demac_config.h)(0x531E5764)
+I (..\FATFS\src\ff.h)(0x53D1D050)
+I (..\FATFS\src\integer.h)(0x5378E62C)
+I (..\FATFS\src\ffconf.h)(0x53C89DEF)
+I (..\SYSTEM\sys\sys.h)(0x574564B4)
+I (..\USER\stm32f4xx.h)(0x571779F1)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
+I (..\AUDIOCODEC\ape\apedec\predictor.h)(0x531E5764)
+I (..\AUDIOCODEC\ape\apedec\filter.h)(0x531E5764)
+I (..\AUDIOCODEC\ape\apedec\entropy.h)(0x531E5764)
+F (..\AUDIOCODEC\ape\apedec\entropy.c)(0x53AEBE33)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\LCD -I ..\HARDWARE\KEY -I ..\HARDWARE\SRAM -I ..\HARDWARE\SDIO -I ..\MALLOC -I ..\USMART -I ..\HARDWARE\SPI -I ..\HARDWARE\W25QXX -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\TEXT -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\I2S -I ..\HARDWARE\WM8978 -I ..\APP -I ..\AUDIOCODEC\wav -I ..\AUDIOCODEC\DSD -I ..\HARDWARE\AK4595SEQ -I ..\AUDIOCODEC\mp3 -I ..\AUDIOCODEC\mp3\helix -I ..\AUDIOCODEC\ape\apedec -I ..\AUDIOCODEC\ape -I ..\AUDIOCODEC\flac\flacdec -I ..\AUDIOCODEC\flac -I ..\HARDWARE\NOKIA5110\5110 -I ..\HARDWARE\SRAM-IF:\WORK_IN_WHU\program\done\HIFI\DEMO\ARM\HIFI_Ver4\HIFI_Ver3WAV192_MP3_ape_flac_nokia\USER\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\entropy.o --omf_browse ..\obj\entropy.crf --depend ..\obj\entropy.d)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
+I (..\AUDIOCODEC\ape\apedec\parser.h)(0x53AD50E8)
+I (..\AUDIOCODEC\ape\apedec\demac_config.h)(0x531E5764)
+I (..\FATFS\src\ff.h)(0x53D1D050)
+I (..\FATFS\src\integer.h)(0x5378E62C)
+I (..\FATFS\src\ffconf.h)(0x53C89DEF)
+I (..\AUDIOCODEC\ape\apedec\entropy.h)(0x531E5764)
+F (..\AUDIOCODEC\ape\apedec\filter_16_11.c)(0x531E5764)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\LCD -I ..\HARDWARE\KEY -I ..\HARDWARE\SRAM -I ..\HARDWARE\SDIO -I ..\MALLOC -I ..\USMART -I ..\HARDWARE\SPI -I ..\HARDWARE\W25QXX -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\TEXT -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\I2S -I ..\HARDWARE\WM8978 -I ..\APP -I ..\AUDIOCODEC\wav -I ..\AUDIOCODEC\DSD -I ..\HARDWARE\AK4595SEQ -I ..\AUDIOCODEC\mp3 -I ..\AUDIOCODEC\mp3\helix -I ..\AUDIOCODEC\ape\apedec -I ..\AUDIOCODEC\ape -I ..\AUDIOCODEC\flac\flacdec -I ..\AUDIOCODEC\flac -I ..\HARDWARE\NOKIA5110\5110 -I ..\HARDWARE\SRAM-IF:\WORK_IN_WHU\program\done\HIFI\DEMO\ARM\HIFI_Ver4\HIFI_Ver3WAV192_MP3_ape_flac_nokia\USER\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\filter_16_11.o --omf_browse ..\obj\filter_16_11.crf --depend ..\obj\filter_16_11.d)
+I (..\AUDIOCODEC\ape\apedec\filter.c)(0x53AE2FDD)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\AUDIOCODEC\ape\apedec\apedecoder.h)(0x53AEBA8F)
+I (..\AUDIOCODEC\ape\apedec\parser.h)(0x53AD50E8)
+I (..\AUDIOCODEC\ape\apedec\demac_config.h)(0x531E5764)
+I (..\FATFS\src\ff.h)(0x53D1D050)
+I (..\FATFS\src\integer.h)(0x5378E62C)
+I (..\FATFS\src\ffconf.h)(0x53C89DEF)
+I (..\SYSTEM\sys\sys.h)(0x574564B4)
+I (..\USER\stm32f4xx.h)(0x571779F1)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
+I (..\AUDIOCODEC\ape\apedec\filter.h)(0x531E5764)
+I (..\AUDIOCODEC\ape\apedec\vector_math_generic.h)(0x531E5764)
+F (..\AUDIOCODEC\ape\apedec\filter_32_10.c)(0x531E5764)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\LCD -I ..\HARDWARE\KEY -I ..\HARDWARE\SRAM -I ..\HARDWARE\SDIO -I ..\MALLOC -I ..\USMART -I ..\HARDWARE\SPI -I ..\HARDWARE\W25QXX -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\TEXT -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\I2S -I ..\HARDWARE\WM8978 -I ..\APP -I ..\AUDIOCODEC\wav -I ..\AUDIOCODEC\DSD -I ..\HARDWARE\AK4595SEQ -I ..\AUDIOCODEC\mp3 -I ..\AUDIOCODEC\mp3\helix -I ..\AUDIOCODEC\ape\apedec -I ..\AUDIOCODEC\ape -I ..\AUDIOCODEC\flac\flacdec -I ..\AUDIOCODEC\flac -I ..\HARDWARE\NOKIA5110\5110 -I ..\HARDWARE\SRAM-IF:\WORK_IN_WHU\program\done\HIFI\DEMO\ARM\HIFI_Ver4\HIFI_Ver3WAV192_MP3_ape_flac_nokia\USER\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\filter_32_10.o --omf_browse ..\obj\filter_32_10.crf --depend ..\obj\filter_32_10.d)
+I (..\AUDIOCODEC\ape\apedec\filter.c)(0x53AE2FDD)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\AUDIOCODEC\ape\apedec\apedecoder.h)(0x53AEBA8F)
+I (..\AUDIOCODEC\ape\apedec\parser.h)(0x53AD50E8)
+I (..\AUDIOCODEC\ape\apedec\demac_config.h)(0x531E5764)
+I (..\FATFS\src\ff.h)(0x53D1D050)
+I (..\FATFS\src\integer.h)(0x5378E62C)
+I (..\FATFS\src\ffconf.h)(0x53C89DEF)
+I (..\SYSTEM\sys\sys.h)(0x574564B4)
+I (..\USER\stm32f4xx.h)(0x571779F1)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
+I (..\AUDIOCODEC\ape\apedec\filter.h)(0x531E5764)
+I (..\AUDIOCODEC\ape\apedec\vector_math_generic.h)(0x531E5764)
+F (..\AUDIOCODEC\ape\apedec\filter_64_11.c)(0x531E5764)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\LCD -I ..\HARDWARE\KEY -I ..\HARDWARE\SRAM -I ..\HARDWARE\SDIO -I ..\MALLOC -I ..\USMART -I ..\HARDWARE\SPI -I ..\HARDWARE\W25QXX -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\TEXT -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\I2S -I ..\HARDWARE\WM8978 -I ..\APP -I ..\AUDIOCODEC\wav -I ..\AUDIOCODEC\DSD -I ..\HARDWARE\AK4595SEQ -I ..\AUDIOCODEC\mp3 -I ..\AUDIOCODEC\mp3\helix -I ..\AUDIOCODEC\ape\apedec -I ..\AUDIOCODEC\ape -I ..\AUDIOCODEC\flac\flacdec -I ..\AUDIOCODEC\flac -I ..\HARDWARE\NOKIA5110\5110 -I ..\HARDWARE\SRAM-IF:\WORK_IN_WHU\program\done\HIFI\DEMO\ARM\HIFI_Ver4\HIFI_Ver3WAV192_MP3_ape_flac_nokia\USER\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\filter_64_11.o --omf_browse ..\obj\filter_64_11.crf --depend ..\obj\filter_64_11.d)
+I (..\AUDIOCODEC\ape\apedec\filter.c)(0x53AE2FDD)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\AUDIOCODEC\ape\apedec\apedecoder.h)(0x53AEBA8F)
+I (..\AUDIOCODEC\ape\apedec\parser.h)(0x53AD50E8)
+I (..\AUDIOCODEC\ape\apedec\demac_config.h)(0x531E5764)
+I (..\FATFS\src\ff.h)(0x53D1D050)
+I (..\FATFS\src\integer.h)(0x5378E62C)
+I (..\FATFS\src\ffconf.h)(0x53C89DEF)
+I (..\SYSTEM\sys\sys.h)(0x574564B4)
+I (..\USER\stm32f4xx.h)(0x571779F1)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
+I (..\AUDIOCODEC\ape\apedec\filter.h)(0x531E5764)
+I (..\AUDIOCODEC\ape\apedec\vector_math_generic.h)(0x531E5764)
+F (..\AUDIOCODEC\ape\apedec\parser.c)(0x53AE6297)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\LCD -I ..\HARDWARE\KEY -I ..\HARDWARE\SRAM -I ..\HARDWARE\SDIO -I ..\MALLOC -I ..\USMART -I ..\HARDWARE\SPI -I ..\HARDWARE\W25QXX -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\TEXT -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\I2S -I ..\HARDWARE\WM8978 -I ..\APP -I ..\AUDIOCODEC\wav -I ..\AUDIOCODEC\DSD -I ..\HARDWARE\AK4595SEQ -I ..\AUDIOCODEC\mp3 -I ..\AUDIOCODEC\mp3\helix -I ..\AUDIOCODEC\ape\apedec -I ..\AUDIOCODEC\ape -I ..\AUDIOCODEC\flac\flacdec -I ..\AUDIOCODEC\flac -I ..\HARDWARE\NOKIA5110\5110 -I ..\HARDWARE\SRAM-IF:\WORK_IN_WHU\program\done\HIFI\DEMO\ARM\HIFI_Ver4\HIFI_Ver3WAV192_MP3_ape_flac_nokia\USER\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\parser.o --omf_browse ..\obj\parser.crf --depend ..\obj\parser.d)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
+I (..\SYSTEM\sys\sys.h)(0x574564B4)
+I (..\USER\stm32f4xx.h)(0x571779F1)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
+I (..\SYSTEM\usart\usart.h)(0x571A0D0D)
+I (..\MALLOC\malloc.h)(0x54212E6B)
+I (..\FATFS\src\ff.h)(0x53D1D050)
+I (..\FATFS\src\integer.h)(0x5378E62C)
+I (..\FATFS\src\ffconf.h)(0x53C89DEF)
+I (..\AUDIOCODEC\ape\apedec\parser.h)(0x53AD50E8)
+I (..\AUDIOCODEC\ape\apedec\demac_config.h)(0x531E5764)
+F (..\AUDIOCODEC\ape\apedec\predictor.c)(0x531E5764)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\LCD -I ..\HARDWARE\KEY -I ..\HARDWARE\SRAM -I ..\HARDWARE\SDIO -I ..\MALLOC -I ..\USMART -I ..\HARDWARE\SPI -I ..\HARDWARE\W25QXX -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\TEXT -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\I2S -I ..\HARDWARE\WM8978 -I ..\APP -I ..\AUDIOCODEC\wav -I ..\AUDIOCODEC\DSD -I ..\HARDWARE\AK4595SEQ -I ..\AUDIOCODEC\mp3 -I ..\AUDIOCODEC\mp3\helix -I ..\AUDIOCODEC\ape\apedec -I ..\AUDIOCODEC\ape -I ..\AUDIOCODEC\flac\flacdec -I ..\AUDIOCODEC\flac -I ..\HARDWARE\NOKIA5110\5110 -I ..\HARDWARE\SRAM-IF:\WORK_IN_WHU\program\done\HIFI\DEMO\ARM\HIFI_Ver4\HIFI_Ver3WAV192_MP3_ape_flac_nokia\USER\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\predictor.o --omf_browse ..\obj\predictor.crf --depend ..\obj\predictor.d)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
+I (..\AUDIOCODEC\ape\apedec\parser.h)(0x53AD50E8)
+I (..\AUDIOCODEC\ape\apedec\demac_config.h)(0x531E5764)
+I (..\FATFS\src\ff.h)(0x53D1D050)
+I (..\FATFS\src\integer.h)(0x5378E62C)
+I (..\FATFS\src\ffconf.h)(0x53C89DEF)
+I (..\AUDIOCODEC\ape\apedec\predictor.h)(0x531E5764)
+I (..\AUDIOCODEC\ape\apedec\filter.h)(0x531E5764)
+F (..\AUDIOCODEC\ape\apedec\predictor-arm.S)(0x531E5764)(--cpu Cortex-M4.fp -g --apcs=interwork -IF:\WORK_IN_WHU\program\done\HIFI\DEMO\ARM\HIFI_Ver4\HIFI_Ver3WAV192_MP3_ape_flac_nokia\USER\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 521" --pd "STM32F40_41xxx SETA 1"--list ..\obj\predictor-arm.lst --xref -o ..\obj\predictor-arm.o --depend ..\obj\predictor-arm.d)
+F (..\AUDIOCODEC\flac\flacdec\bitstreamf.c)(0x531E5764)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\LCD -I ..\HARDWARE\KEY -I ..\HARDWARE\SRAM -I ..\HARDWARE\SDIO -I ..\MALLOC -I ..\USMART -I ..\HARDWARE\SPI -I ..\HARDWARE\W25QXX -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\TEXT -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\I2S -I ..\HARDWARE\WM8978 -I ..\APP -I ..\AUDIOCODEC\wav -I ..\AUDIOCODEC\DSD -I ..\HARDWARE\AK4595SEQ -I ..\AUDIOCODEC\mp3 -I ..\AUDIOCODEC\mp3\helix -I ..\AUDIOCODEC\ape\apedec -I ..\AUDIOCODEC\ape -I ..\AUDIOCODEC\flac\flacdec -I ..\AUDIOCODEC\flac -I ..\HARDWARE\NOKIA5110\5110 -I ..\HARDWARE\SRAM-IF:\WORK_IN_WHU\program\done\HIFI\DEMO\ARM\HIFI_Ver4\HIFI_Ver3WAV192_MP3_ape_flac_nokia\USER\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\bitstreamf.o --omf_browse ..\obj\bitstreamf.crf --depend ..\obj\bitstreamf.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574E3E26)
+I (..\AUDIOCODEC\flac\flacdec\bitstreamf.h)(0x531E5764)
+F (..\AUDIOCODEC\flac\flacdec\flacdecoder.c)(0x53AD4CE5)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\LCD -I ..\HARDWARE\KEY -I ..\HARDWARE\SRAM -I ..\HARDWARE\SDIO -I ..\MALLOC -I ..\USMART -I ..\HARDWARE\SPI -I ..\HARDWARE\W25QXX -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\TEXT -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\I2S -I ..\HARDWARE\WM8978 -I ..\APP -I ..\AUDIOCODEC\wav -I ..\AUDIOCODEC\DSD -I ..\HARDWARE\AK4595SEQ -I ..\AUDIOCODEC\mp3 -I ..\AUDIOCODEC\mp3\helix -I ..\AUDIOCODEC\ape\apedec -I ..\AUDIOCODEC\ape -I ..\AUDIOCODEC\flac\flacdec -I ..\AUDIOCODEC\flac -I ..\HARDWARE\NOKIA5110\5110 -I ..\HARDWARE\SRAM-IF:\WORK_IN_WHU\program\done\HIFI\DEMO\ARM\HIFI_Ver4\HIFI_Ver3WAV192_MP3_ape_flac_nokia\USER\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\flacdecoder.o --omf_browse ..\obj\flacdecoder.crf --depend ..\obj\flacdecoder.d)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574E3E26)
+I (..\AUDIOCODEC\flac\flacdec\golomb.h)(0x531E5764)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x574E3E26)
+I (..\AUDIOCODEC\flac\flacdec\bitstreamf.h)(0x531E5764)
+I (..\AUDIOCODEC\flac\flacdec\flacdecoder.h)(0x53AD1E41)
+I (..\SYSTEM\sys\sys.h)(0x574564B4)
+I (..\USER\stm32f4xx.h)(0x571779F1)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
+F (..\AUDIOCODEC\flac\flacdec\tables.c)(0x531E5764)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\LCD -I ..\HARDWARE\KEY -I ..\HARDWARE\SRAM -I ..\HARDWARE\SDIO -I ..\MALLOC -I ..\USMART -I ..\HARDWARE\SPI -I ..\HARDWARE\W25QXX -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\TEXT -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\I2S -I ..\HARDWARE\WM8978 -I ..\APP -I ..\AUDIOCODEC\wav -I ..\AUDIOCODEC\DSD -I ..\HARDWARE\AK4595SEQ -I ..\AUDIOCODEC\mp3 -I ..\AUDIOCODEC\mp3\helix -I ..\AUDIOCODEC\ape\apedec -I ..\AUDIOCODEC\ape -I ..\AUDIOCODEC\flac\flacdec -I ..\AUDIOCODEC\flac -I ..\HARDWARE\NOKIA5110\5110 -I ..\HARDWARE\SRAM-IF:\WORK_IN_WHU\program\done\HIFI\DEMO\ARM\HIFI_Ver4\HIFI_Ver3WAV192_MP3_ape_flac_nokia\USER\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\tables.o --omf_browse ..\obj\tables.crf --depend ..\obj\tables.d)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
