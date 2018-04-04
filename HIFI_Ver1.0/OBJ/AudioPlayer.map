@@ -2254,66 +2254,66 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
 
-       496         32          0          6          0       3009   ak4595.o
-       536          4          0         12          0       3106   apedecoder.o
-      1460        194          0          6          0       7085   apeplay.o
-        22          0          0          0          0        512   asmmisc_rvds.o
-      2062          0          0          0          0        692   asmpoly_thumb2_rvds.o
-       888        174          0          2         68       4702   audioplay.o
-      1332         26          0          0          0      10173   bitstream.o
-       254          0          0          0          0       4786   bitstreamf.o
-       406          0          0          0          0       2172   buffers.o
-      3372         10        192          0          0       4694   dct32.o
-       260          8          0          4          0       1573   delay.o
-       672          4          0          0          0       2042   dequant.o
-       420          8          0          2          0       4522   diskio.o
-      1094         36        592          0          0       3918   dqchan.o
-      1148         48       1032         24         16       5842   entropy.o
-       416         22        212         20         80       2932   exfuns.o
-     12954        136         58          2         12      38486   ff.o
-      1292          4          0          0         40       4115   filter_16_11.o
-      1996          4          0          0         40       4063   filter_64_11.o
-      2916         26        416          0          0      14872   flacdecoder.o
-      2088        282          0          6          0       8444   flacplay.o
-      1824         24          0          0          0       5733   huffman.o
-         0          0       8964          0          0       5844   hufftabs.o
-      1424         62        110          4          0       4718   i2s.o
-      4140         56        120          0          0       9821   imdct.o
-       264         30          0          1          0        948   key.o
-        88         10          0          0          0     296859   main.o
-       556         18         36         36    1218560       5173   malloc.o
-       224         20          0          0          0       1909   misc.o
-      1180          4          0          0          0       4594   mp3dec.o
-      2200        222          0          6          0       8022   mp3play.o
-         0          0       1278          0          0       2137   mp3tabs.o
-        64          8        960          0          0       1333   mycc936.o
-       708         26          0          0          0       2028   myiic.o
-       904         18          0       2984          0       5136   nokia5110.o
-      2824        758          0          0          0       4266   parser.o
-      1062          0          0          0          0        832   predictor-arm.o
-        88          4         16          0          0       1665   predictor.o
-      1516        222          0          3         28       5668   sacd_dsf.o
-      1422          8        104          0          0       4062   scalfact.o
-      7520        282          0         16        704      25441   sdio_sdcard.o
-        64         26        392          0       1536        880   startup_stm32f40_41xxx.o
-       936         32          0          0          0       6485   stm32f4xx_dma.o
-       660         44          0          0          0       4249   stm32f4xx_gpio.o
-        26          0          0          0          0       1266   stm32f4xx_it.o
-      1628         52          0         16          0      13172   stm32f4xx_rcc.o
-       476         16          0          0          0       7512   stm32f4xx_sdio.o
-      1152         36          0          0          0       6997   stm32f4xx_spi.o
-      1108         34          0          0          0       7972   stm32f4xx_usart.o
-      1572         16          0          0          0       4231   stproc.o
-       276          4          0          0          0       1323   subband.o
-        16          0          0          0          0        536   sys.o
-       528         46          0         20          0       1919   system_stm32f4xx.o
-         0          0        256          0          0        650   tables.o
-         0          0       2156          0          0       1084   trigtabs.o
-       312         20          0          6        200       3418   usart.o
-      1676        286          0          2       8224       4082   wavplay.o
+       496         32          0          6          0       2897   ak4595.o
+       536          4          0         12          0       2998   apedecoder.o
+      1460        194          0          6          0       6853   apeplay.o
+        22          0          0          0          0        476   asmmisc_rvds.o
+      2062          0          0          0          0        652   asmpoly_thumb2_rvds.o
+       888        174          0          2         68       4554   audioplay.o
+      1332         26          0          0          0      10021   bitstream.o
+       254          0          0          0          0       4710   bitstreamf.o
+       406          0          0          0          0       2096   buffers.o
+      3372         10        192          0          0       4582   dct32.o
+       260          8          0          4          0       1493   delay.o
+       672          4          0          0          0       1966   dequant.o
+       420          8          0          2          0       4366   diskio.o
+      1094         36        592          0          0       3806   dqchan.o
+      1148         48       1032         24         16       5730   entropy.o
+       416         22        212         20         80       2820   exfuns.o
+     12954        136         58          2         12      38338   ff.o
+      1292          4          0          0         40       3967   filter_16_11.o
+      1996          4          0          0         40       3947   filter_64_11.o
+      2916         26        416          0          0      14640   flacdecoder.o
+      2088        282          0          6          0       8204   flacplay.o
+      1824         24          0          0          0       5657   huffman.o
+         0          0       8964          0          0       5728   hufftabs.o
+      1424         62        110          4          0       4610   i2s.o
+      4140         56        120          0          0       9677   imdct.o
+       264         30          0          1          0        908   key.o
+        88         10          0          0          0     296403   main.o
+       556         18         36         36    1218560       5017   malloc.o
+       224         20          0          0          0       1833   misc.o
+      1180          4          0          0          0       4518   mp3dec.o
+      2200        222          0          6          0       7830   mp3play.o
+         0          0       1278          0          0       2025   mp3tabs.o
+        64          8        960          0          0       1257   mycc936.o
+       708         26          0          0          0       1992   myiic.o
+       904         18          0       2984          0       5020   nokia5110.o
+      2824        758          0          0          0       4190   parser.o
+      1062          0          0          0          0        796   predictor-arm.o
+        88          4         16          0          0       1553   predictor.o
+      1516        222          0          3         28       5520   sacd_dsf.o
+      1422          8        104          0          0       3950   scalfact.o
+      7520        282          0         16        704      25293   sdio_sdcard.o
+        64         26        392          0       1536        844   startup_stm32f40_41xxx.o
+       936         32          0          0          0       6405   stm32f4xx_dma.o
+       660         44          0          0          0       4173   stm32f4xx_gpio.o
+        26          0          0          0          0       1230   stm32f4xx_it.o
+      1628         52          0         16          0      13056   stm32f4xx_rcc.o
+       476         16          0          0          0       7436   stm32f4xx_sdio.o
+      1152         36          0          0          0       6921   stm32f4xx_spi.o
+      1108         34          0          0          0       7896   stm32f4xx_usart.o
+      1572         16          0          0          0       4155   stproc.o
+       276          4          0          0          0       1251   subband.o
+        16          0          0          0          0        496   sys.o
+       528         46          0         20          0       1803   system_stm32f4xx.o
+         0          0        256          0          0        578   tables.o
+         0          0       2156          0          0       1008   trigtabs.o
+       312         20          0          6        200       3306   usart.o
+      1676        286          0          2       8224       3966   wavplay.o
 
     ----------------------------------------------------------------------
-     74536       3402      16930       3192    1229508     593705   Object Totals
+     74536       3402      16930       3192    1229508     587417   Object Totals
          0          0         32          0          0          0   (incl. Generated)
         14          0          4         14          0          0   (incl. Padding)
 
@@ -2403,8 +2403,8 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-     78914       3484      16990       3192    1229608     585925   Grand Totals
-     78914       3484      16990       2116    1229608     585925   ELF Image Totals (compressed)
+     78914       3484      16990       3192    1229608     579637   Grand Totals
+     78914       3484      16990       2116    1229608     579637   ELF Image Totals (compressed)
      78914       3484      16990       2116          0          0   ROM Totals
 
 ==============================================================================
